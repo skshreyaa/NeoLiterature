@@ -1,0 +1,596 @@
+[
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 1,
+    "fields": {
+      "level": "beginner",
+      "language": "en",
+      "text": "Hello",
+      "image_url": "",
+      "order": 1
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 2,
+    "fields": {
+      "level": "beginner",
+      "language": "en",
+      "text": "Thank you",
+      "image_url": "",
+      "order": 2
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 3,
+    "fields": {
+      "level": "beginner",
+      "language": "en",
+      "text": "Please",
+      "image_url": "",
+      "order": 3
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 4,
+    "fields": {
+      "level": "beginner",
+      "language": "en",
+      "text": "Sorry",
+      "image_url": "",
+      "order": 4
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 5,
+    "fields": {
+      "level": "beginner",
+      "language": "en",
+      "text": "Good morning",
+      "image_url": "",
+      "order": 5
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 6,
+    "fields": {
+      "level": "beginner",
+      "language": "en",
+      "text": "Good night",
+      "image_url": "",
+      "order": 6
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 7,
+    "fields": {
+      "level": "beginner",
+      "language": "en",
+      "text": "My dog is big",
+      "image_url": "",
+      "order": 7
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 8,
+    "fields": {
+      "level": "beginner",
+      "language": "en",
+      "text": "The sky is blue",
+      "image_url": "",
+      "order": 8
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 9,
+    "fields": {
+      "level": "beginner",
+      "language": "en",
+      "text": "I have a red apple",
+      "image_url": "",
+      "order": 9
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 10,
+    "fields": {
+      "level": "beginner",
+      "language": "en",
+      "text": "I am happy",
+      "image_url": "",
+      "order": 10
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 11,
+    "fields": {
+      "level": "beginner",
+      "language": "en",
+      "text": "This is my house",
+      "image_url": "",
+      "order": 11
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 12,
+    "fields": {
+      "level": "beginner",
+      "language": "en",
+      "text": "I like tea",
+      "image_url": "",
+      "order": 12
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 13,
+    "fields": {
+      "level": "beginner",
+      "language": "en",
+      "text": "The cat is small",
+      "image_url": "",
+      "order": 13
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 14,
+    "fields": {
+      "level": "beginner",
+      "language": "en",
+      "text": "We eat rice",
+      "image_url": "",
+      "order": 14
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 15,
+    "fields": {
+      "level": "beginner",
+      "language": "en",
+      "text": "She is my friend",
+      "image_url": "",
+      "order": 15
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 16,
+    "fields": {
+      "level": "beginner",
+      "language": "en",
+      "text": "It is raining today",
+      "image_url": "",
+      "order": 16
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 17,
+    "fields": {
+      "level": "beginner",
+      "language": "en",
+      "text": "I want water",
+      "image_url": "",
+      "order": 17
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 18,
+    "fields": {
+      "level": "beginner",
+      "language": "en",
+      "text": "The book is on the table",
+      "image_url": "",
+      "order": 18
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 19,
+    "fields": {
+      "level": "intermediate",
+      "language": "en",
+      "text": "She reads every day",
+      "image_url": "",
+      "order": 1
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 20,
+    "fields": {
+      "level": "intermediate",
+      "language": "en",
+      "text": "The dog runs fast",
+      "image_url": "",
+      "order": 2
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 21,
+    "fields": {
+      "level": "intermediate",
+      "language": "en",
+      "text": "I was tired so I went to sleep",
+      "image_url": "",
+      "order": 3
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 22,
+    "fields": {
+      "level": "intermediate",
+      "language": "en",
+      "text": "Where do you live",
+      "image_url": "",
+      "order": 4
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 23,
+    "fields": {
+      "level": "intermediate",
+      "language": "en",
+      "text": "Why did you go there",
+      "image_url": "",
+      "order": 5
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 24,
+    "fields": {
+      "level": "intermediate",
+      "language": "en",
+      "text": "He works in the city",
+      "image_url": "",
+      "order": 6
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 25,
+    "fields": {
+      "level": "intermediate",
+      "language": "en",
+      "text": "We are going to the market",
+      "image_url": "",
+      "order": 7
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 26,
+    "fields": {
+      "level": "intermediate",
+      "language": "en",
+      "text": "Can you help me with this",
+      "image_url": "",
+      "order": 8
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 27,
+    "fields": {
+      "level": "intermediate",
+      "language": "en",
+      "text": "I have been learning English for a year",
+      "image_url": "",
+      "order": 9
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 28,
+    "fields": {
+      "level": "intermediate",
+      "language": "en",
+      "text": "They play cricket on weekends",
+      "image_url": "",
+      "order": 10
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 29,
+    "fields": {
+      "level": "intermediate",
+      "language": "en",
+      "text": "My sister is studying medicine",
+      "image_url": "",
+      "order": 11
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 30,
+    "fields": {
+      "level": "intermediate",
+      "language": "en",
+      "text": "The train arrives at nine o'clock",
+      "image_url": "",
+      "order": 12
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 31,
+    "fields": {
+      "level": "intermediate",
+      "language": "en",
+      "text": "I forgot my umbrella at home",
+      "image_url": "",
+      "order": 13
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 32,
+    "fields": {
+      "level": "intermediate",
+      "language": "en",
+      "text": "She sings beautifully",
+      "image_url": "",
+      "order": 14
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 33,
+    "fields": {
+      "level": "intermediate",
+      "language": "en",
+      "text": "We should leave before it gets dark",
+      "image_url": "",
+      "order": 15
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 34,
+    "fields": {
+      "level": "intermediate",
+      "language": "en",
+      "text": "He always arrives on time",
+      "image_url": "",
+      "order": 16
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 35,
+    "fields": {
+      "level": "intermediate",
+      "language": "en",
+      "text": "I need to finish my homework",
+      "image_url": "",
+      "order": 17
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 36,
+    "fields": {
+      "level": "intermediate",
+      "language": "en",
+      "text": "The weather is quite pleasant today",
+      "image_url": "",
+      "order": 18
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 37,
+    "fields": {
+      "level": "advanced",
+      "language": "en",
+      "text": "The sun rises in the east every morning",
+      "image_url": "",
+      "order": 1
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 38,
+    "fields": {
+      "level": "advanced",
+      "language": "en",
+      "text": "Reading helps you understand the world better",
+      "image_url": "",
+      "order": 2
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 39,
+    "fields": {
+      "level": "advanced",
+      "language": "en",
+      "text": "I want to learn a new skill this year",
+      "image_url": "",
+      "order": 3
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 40,
+    "fields": {
+      "level": "advanced",
+      "language": "en",
+      "text": "Water is very important for life",
+      "image_url": "",
+      "order": 4
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 41,
+    "fields": {
+      "level": "advanced",
+      "language": "en",
+      "text": "Education is the key to a better future",
+      "image_url": "",
+      "order": 5
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 42,
+    "fields": {
+      "level": "advanced",
+      "language": "en",
+      "text": "We must protect our environment for future generations",
+      "image_url": "",
+      "order": 6
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 43,
+    "fields": {
+      "level": "advanced",
+      "language": "en",
+      "text": "Success comes from consistent effort over time",
+      "image_url": "",
+      "order": 7
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 44,
+    "fields": {
+      "level": "advanced",
+      "language": "en",
+      "text": "Technology has changed the way we communicate",
+      "image_url": "",
+      "order": 8
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 45,
+    "fields": {
+      "level": "advanced",
+      "language": "en",
+      "text": "It is important to listen carefully before responding",
+      "image_url": "",
+      "order": 9
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 46,
+    "fields": {
+      "level": "advanced",
+      "language": "en",
+      "text": "A balanced diet contributes to good health",
+      "image_url": "",
+      "order": 10
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 47,
+    "fields": {
+      "level": "advanced",
+      "language": "en",
+      "text": "Traveling broadens your understanding of different cultures",
+      "image_url": "",
+      "order": 11
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 48,
+    "fields": {
+      "level": "advanced",
+      "language": "en",
+      "text": "Honesty is the foundation of trust in any relationship",
+      "image_url": "",
+      "order": 12
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 49,
+    "fields": {
+      "level": "advanced",
+      "language": "en",
+      "text": "The library was quiet except for the sound of turning pages",
+      "image_url": "",
+      "order": 13
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 50,
+    "fields": {
+      "level": "advanced",
+      "language": "en",
+      "text": "Scientists continue to discover new information about the universe",
+      "image_url": "",
+      "order": 14
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 51,
+    "fields": {
+      "level": "advanced",
+      "language": "en",
+      "text": "Good communication skills are valuable in every profession",
+      "image_url": "",
+      "order": 15
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 52,
+    "fields": {
+      "level": "advanced",
+      "language": "en",
+      "text": "Community support can make a significant difference during hard times",
+      "image_url": "",
+      "order": 16
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 53,
+    "fields": {
+      "level": "advanced",
+      "language": "en",
+      "text": "Practice and patience are essential for mastering any skill",
+      "image_url": "",
+      "order": 17
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 54,
+    "fields": {
+      "level": "advanced",
+      "language": "en",
+      "text": "The economy depends on both production and consumption",
+      "image_url": "",
+      "order": 18
+    }
+  }
+]

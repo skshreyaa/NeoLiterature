@@ -1,0 +1,596 @@
+[
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 300,
+    "fields": {
+      "level": "beginner",
+      "language": "ta",
+      "text": "வணக்கம்",
+      "image_url": "",
+      "order": 1
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 301,
+    "fields": {
+      "level": "beginner",
+      "language": "ta",
+      "text": "நன்றி",
+      "image_url": "",
+      "order": 2
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 302,
+    "fields": {
+      "level": "beginner",
+      "language": "ta",
+      "text": "தயவுசெய்து",
+      "image_url": "",
+      "order": 3
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 303,
+    "fields": {
+      "level": "beginner",
+      "language": "ta",
+      "text": "மன்னிக்கவும்",
+      "image_url": "",
+      "order": 4
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 304,
+    "fields": {
+      "level": "beginner",
+      "language": "ta",
+      "text": "காலை வணக்கம்",
+      "image_url": "",
+      "order": 5
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 305,
+    "fields": {
+      "level": "beginner",
+      "language": "ta",
+      "text": "இனிய இரவு",
+      "image_url": "",
+      "order": 6
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 306,
+    "fields": {
+      "level": "beginner",
+      "language": "ta",
+      "text": "என் நாய் பெரியது",
+      "image_url": "",
+      "order": 7
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 307,
+    "fields": {
+      "level": "beginner",
+      "language": "ta",
+      "text": "வானம் நீலமாக உள்ளது",
+      "image_url": "",
+      "order": 8
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 308,
+    "fields": {
+      "level": "beginner",
+      "language": "ta",
+      "text": "என்னிடம் ஒரு சிவப்பு ஆப்பிள் உள்ளது",
+      "image_url": "",
+      "order": 9
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 309,
+    "fields": {
+      "level": "beginner",
+      "language": "ta",
+      "text": "நான் மகிழ்ச்சியாக இருக்கிறேன்",
+      "image_url": "",
+      "order": 10
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 310,
+    "fields": {
+      "level": "beginner",
+      "language": "ta",
+      "text": "இது என் வீடு",
+      "image_url": "",
+      "order": 11
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 311,
+    "fields": {
+      "level": "beginner",
+      "language": "ta",
+      "text": "எனக்கு தேநீர் பிடிக்கும்",
+      "image_url": "",
+      "order": 12
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 312,
+    "fields": {
+      "level": "beginner",
+      "language": "ta",
+      "text": "பூனை சிறியது",
+      "image_url": "",
+      "order": 13
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 313,
+    "fields": {
+      "level": "beginner",
+      "language": "ta",
+      "text": "நாங்கள் சாதம் சாப்பிடுகிறோம்",
+      "image_url": "",
+      "order": 14
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 314,
+    "fields": {
+      "level": "beginner",
+      "language": "ta",
+      "text": "அவள் என் தோழி",
+      "image_url": "",
+      "order": 15
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 315,
+    "fields": {
+      "level": "beginner",
+      "language": "ta",
+      "text": "இன்று மழை பெய்கிறது",
+      "image_url": "",
+      "order": 16
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 316,
+    "fields": {
+      "level": "beginner",
+      "language": "ta",
+      "text": "எனக்கு தண்ணீர் வேண்டும்",
+      "image_url": "",
+      "order": 17
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 317,
+    "fields": {
+      "level": "beginner",
+      "language": "ta",
+      "text": "புத்தகம் மேசையில் உள்ளது",
+      "image_url": "",
+      "order": 18
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 318,
+    "fields": {
+      "level": "intermediate",
+      "language": "ta",
+      "text": "அவள் ஒவ்வொரு நாளும் படிக்கிறாள்",
+      "image_url": "",
+      "order": 1
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 319,
+    "fields": {
+      "level": "intermediate",
+      "language": "ta",
+      "text": "நாய் வேகமாக ஓடுகிறது",
+      "image_url": "",
+      "order": 2
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 320,
+    "fields": {
+      "level": "intermediate",
+      "language": "ta",
+      "text": "நான் சோர்வாக இருந்தேன் அதனால் தூங்கச் சென்றேன்",
+      "image_url": "",
+      "order": 3
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 321,
+    "fields": {
+      "level": "intermediate",
+      "language": "ta",
+      "text": "நீங்கள் எங்கே வசிக்கிறீர்கள்",
+      "image_url": "",
+      "order": 4
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 322,
+    "fields": {
+      "level": "intermediate",
+      "language": "ta",
+      "text": "நீங்கள் ஏன் அங்கே சென்றீர்கள்",
+      "image_url": "",
+      "order": 5
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 323,
+    "fields": {
+      "level": "intermediate",
+      "language": "ta",
+      "text": "அவன் நகரத்தில் வேலை செய்கிறான்",
+      "image_url": "",
+      "order": 6
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 324,
+    "fields": {
+      "level": "intermediate",
+      "language": "ta",
+      "text": "நாங்கள் சந்தைக்கு செல்கிறோம்",
+      "image_url": "",
+      "order": 7
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 325,
+    "fields": {
+      "level": "intermediate",
+      "language": "ta",
+      "text": "இதில் நீங்கள் எனக்கு உதவ முடியுமா",
+      "image_url": "",
+      "order": 8
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 326,
+    "fields": {
+      "level": "intermediate",
+      "language": "ta",
+      "text": "நான் ஒரு வருடமாக ஆங்கிலம் கற்றுக்கொண்டிருக்கிறேன்",
+      "image_url": "",
+      "order": 9
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 327,
+    "fields": {
+      "level": "intermediate",
+      "language": "ta",
+      "text": "அவர்கள் வார இறுதியில் கிரிக்கெட் விளையாடுகிறார்கள்",
+      "image_url": "",
+      "order": 10
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 328,
+    "fields": {
+      "level": "intermediate",
+      "language": "ta",
+      "text": "என் சகோதரி மருத்துவம் படிக்கிறாள்",
+      "image_url": "",
+      "order": 11
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 329,
+    "fields": {
+      "level": "intermediate",
+      "language": "ta",
+      "text": "ரயில் ஒன்பது மணிக்கு வருகிறது",
+      "image_url": "",
+      "order": 12
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 330,
+    "fields": {
+      "level": "intermediate",
+      "language": "ta",
+      "text": "நான் என் குடையை வீட்டில் மறந்துவிட்டேன்",
+      "image_url": "",
+      "order": 13
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 331,
+    "fields": {
+      "level": "intermediate",
+      "language": "ta",
+      "text": "அவள் அழகாக பாடுகிறாள்",
+      "image_url": "",
+      "order": 14
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 332,
+    "fields": {
+      "level": "intermediate",
+      "language": "ta",
+      "text": "இருட்டுவதற்கு முன் நாம் கிளம்ப வேண்டும்",
+      "image_url": "",
+      "order": 15
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 333,
+    "fields": {
+      "level": "intermediate",
+      "language": "ta",
+      "text": "அவன் எப்போதும் சரியான நேரத்தில் வருகிறான்",
+      "image_url": "",
+      "order": 16
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 334,
+    "fields": {
+      "level": "intermediate",
+      "language": "ta",
+      "text": "நான் என் வீட்டுப்பாடத்தை முடிக்க வேண்டும்",
+      "image_url": "",
+      "order": 17
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 335,
+    "fields": {
+      "level": "intermediate",
+      "language": "ta",
+      "text": "இன்று வானிலை மிகவும் இதமாக உள்ளது",
+      "image_url": "",
+      "order": 18
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 336,
+    "fields": {
+      "level": "advanced",
+      "language": "ta",
+      "text": "சூரியன் ஒவ்வொரு நாளும் காலையில் கிழக்கில் உதிக்கிறது",
+      "image_url": "",
+      "order": 1
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 337,
+    "fields": {
+      "level": "advanced",
+      "language": "ta",
+      "text": "படிப்பது உலகைப் புரிந்துகொள்ள உதவுகிறது",
+      "image_url": "",
+      "order": 2
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 338,
+    "fields": {
+      "level": "advanced",
+      "language": "ta",
+      "text": "இந்த ஆண்டு நான் ஒரு புதிய திறனைக் கற்க விரும்புகிறேன்",
+      "image_url": "",
+      "order": 3
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 339,
+    "fields": {
+      "level": "advanced",
+      "language": "ta",
+      "text": "தண்ணீர் வாழ்க்கைக்கு மிகவும் முக்கியமானது",
+      "image_url": "",
+      "order": 4
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 340,
+    "fields": {
+      "level": "advanced",
+      "language": "ta",
+      "text": "கல்வி ஒரு சிறந்த எதிர்காலத்திற்கான திறவுகோல்",
+      "image_url": "",
+      "order": 5
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 341,
+    "fields": {
+      "level": "advanced",
+      "language": "ta",
+      "text": "எதிர்கால சந்ததியினருக்காக நாம் சுற்றுச்சூழலைப் பாதுகாக்க வேண்டும்",
+      "image_url": "",
+      "order": 6
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 342,
+    "fields": {
+      "level": "advanced",
+      "language": "ta",
+      "text": "வெற்றி காலப்போக்கில் தொடர்ச்சியான முயற்சியிலிருந்து வருகிறது",
+      "image_url": "",
+      "order": 7
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 343,
+    "fields": {
+      "level": "advanced",
+      "language": "ta",
+      "text": "தொழில்நுட்பம் நாம் தொடர்பு கொள்ளும் விதத்தை மாற்றியுள்ளது",
+      "image_url": "",
+      "order": 8
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 344,
+    "fields": {
+      "level": "advanced",
+      "language": "ta",
+      "text": "பதிலளிப்பதற்கு முன் கவனமாகக் கேட்பது முக்கியம்",
+      "image_url": "",
+      "order": 9
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 345,
+    "fields": {
+      "level": "advanced",
+      "language": "ta",
+      "text": "சமச்சீரான உணவு நல்ல ஆரோக்கியத்திற்கு பங்களிக்கிறது",
+      "image_url": "",
+      "order": 10
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 346,
+    "fields": {
+      "level": "advanced",
+      "language": "ta",
+      "text": "பயணம் பல்வேறு கலாச்சாரங்களைப் புரிந்துகொள்வதை விரிவுபடுத்துகிறது",
+      "image_url": "",
+      "order": 11
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 347,
+    "fields": {
+      "level": "advanced",
+      "language": "ta",
+      "text": "நேர்மை எந்தவொரு உறவிலும் நம்பிக்கையின் அடித்தளமாகும்",
+      "image_url": "",
+      "order": 12
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 348,
+    "fields": {
+      "level": "advanced",
+      "language": "ta",
+      "text": "பக்கங்களைப் புரட்டும் சத்தத்தைத் தவிர நூலகம் அமைதியாக இருந்தது",
+      "image_url": "",
+      "order": 13
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 349,
+    "fields": {
+      "level": "advanced",
+      "language": "ta",
+      "text": "விஞ்ஞானிகள் பிரபஞ்சத்தைப் பற்றிய புதிய தகவல்களைக் கண்டறிந்து கொண்டே இருக்கிறார்கள்",
+      "image_url": "",
+      "order": 14
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 350,
+    "fields": {
+      "level": "advanced",
+      "language": "ta",
+      "text": "நல்ல தொடர்பாடல் திறன்கள் ஒவ்வொரு தொழிலிலும் மதிப்புமிக்கவை",
+      "image_url": "",
+      "order": 15
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 351,
+    "fields": {
+      "level": "advanced",
+      "language": "ta",
+      "text": "கடினமான காலங்களில் சமூக ஆதரவு குறிப்பிடத்தக்க மாற்றத்தை ஏற்படுத்தும்",
+      "image_url": "",
+      "order": 16
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 352,
+    "fields": {
+      "level": "advanced",
+      "language": "ta",
+      "text": "எந்தவொரு திறனிலும் தேர்ச்சி பெற பயிற்சியும் பொறுமையும் அவசியம்",
+      "image_url": "",
+      "order": 17
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 353,
+    "fields": {
+      "level": "advanced",
+      "language": "ta",
+      "text": "பொருளாதாரம் உற்பத்தி மற்றும் நுகர்வு இரண்டையும் சார்ந்துள்ளது",
+      "image_url": "",
+      "order": 18
+    }
+  }
+]

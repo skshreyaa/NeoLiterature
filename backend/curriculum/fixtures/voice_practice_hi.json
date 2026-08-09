@@ -1,0 +1,596 @@
+[
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 100,
+    "fields": {
+      "level": "beginner",
+      "language": "hi",
+      "text": "नमस्ते",
+      "image_url": "",
+      "order": 1
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 101,
+    "fields": {
+      "level": "beginner",
+      "language": "hi",
+      "text": "धन्यवाद",
+      "image_url": "",
+      "order": 2
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 102,
+    "fields": {
+      "level": "beginner",
+      "language": "hi",
+      "text": "कृपया",
+      "image_url": "",
+      "order": 3
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 103,
+    "fields": {
+      "level": "beginner",
+      "language": "hi",
+      "text": "माफ़ कीजिए",
+      "image_url": "",
+      "order": 4
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 104,
+    "fields": {
+      "level": "beginner",
+      "language": "hi",
+      "text": "सुप्रभात",
+      "image_url": "",
+      "order": 5
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 105,
+    "fields": {
+      "level": "beginner",
+      "language": "hi",
+      "text": "शुभ रात्रि",
+      "image_url": "",
+      "order": 6
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 106,
+    "fields": {
+      "level": "beginner",
+      "language": "hi",
+      "text": "मेरा कुत्ता बड़ा है",
+      "image_url": "",
+      "order": 7
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 107,
+    "fields": {
+      "level": "beginner",
+      "language": "hi",
+      "text": "आसमान नीला है",
+      "image_url": "",
+      "order": 8
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 108,
+    "fields": {
+      "level": "beginner",
+      "language": "hi",
+      "text": "मेरे पास एक लाल सेब है",
+      "image_url": "",
+      "order": 9
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 109,
+    "fields": {
+      "level": "beginner",
+      "language": "hi",
+      "text": "मैं खुश हूँ",
+      "image_url": "",
+      "order": 10
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 110,
+    "fields": {
+      "level": "beginner",
+      "language": "hi",
+      "text": "यह मेरा घर है",
+      "image_url": "",
+      "order": 11
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 111,
+    "fields": {
+      "level": "beginner",
+      "language": "hi",
+      "text": "मुझे चाय पसंद है",
+      "image_url": "",
+      "order": 12
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 112,
+    "fields": {
+      "level": "beginner",
+      "language": "hi",
+      "text": "बिल्ली छोटी है",
+      "image_url": "",
+      "order": 13
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 113,
+    "fields": {
+      "level": "beginner",
+      "language": "hi",
+      "text": "हम चावल खाते हैं",
+      "image_url": "",
+      "order": 14
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 114,
+    "fields": {
+      "level": "beginner",
+      "language": "hi",
+      "text": "वह मेरी सहेली है",
+      "image_url": "",
+      "order": 15
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 115,
+    "fields": {
+      "level": "beginner",
+      "language": "hi",
+      "text": "आज बारिश हो रही है",
+      "image_url": "",
+      "order": 16
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 116,
+    "fields": {
+      "level": "beginner",
+      "language": "hi",
+      "text": "मुझे पानी चाहिए",
+      "image_url": "",
+      "order": 17
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 117,
+    "fields": {
+      "level": "beginner",
+      "language": "hi",
+      "text": "किताब मेज़ पर है",
+      "image_url": "",
+      "order": 18
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 118,
+    "fields": {
+      "level": "intermediate",
+      "language": "hi",
+      "text": "वह हर दिन पढ़ती है",
+      "image_url": "",
+      "order": 1
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 119,
+    "fields": {
+      "level": "intermediate",
+      "language": "hi",
+      "text": "कुत्ता तेज़ दौड़ता है",
+      "image_url": "",
+      "order": 2
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 120,
+    "fields": {
+      "level": "intermediate",
+      "language": "hi",
+      "text": "मैं थका था इसलिए मैं सो गया",
+      "image_url": "",
+      "order": 3
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 121,
+    "fields": {
+      "level": "intermediate",
+      "language": "hi",
+      "text": "आप कहाँ रहते हैं",
+      "image_url": "",
+      "order": 4
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 122,
+    "fields": {
+      "level": "intermediate",
+      "language": "hi",
+      "text": "आप वहाँ क्यों गए",
+      "image_url": "",
+      "order": 5
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 123,
+    "fields": {
+      "level": "intermediate",
+      "language": "hi",
+      "text": "वह शहर में काम करता है",
+      "image_url": "",
+      "order": 6
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 124,
+    "fields": {
+      "level": "intermediate",
+      "language": "hi",
+      "text": "हम बाज़ार जा रहे हैं",
+      "image_url": "",
+      "order": 7
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 125,
+    "fields": {
+      "level": "intermediate",
+      "language": "hi",
+      "text": "क्या आप इसमें मेरी मदद कर सकते हैं",
+      "image_url": "",
+      "order": 8
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 126,
+    "fields": {
+      "level": "intermediate",
+      "language": "hi",
+      "text": "मैं एक साल से अंग्रेज़ी सीख रहा हूँ",
+      "image_url": "",
+      "order": 9
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 127,
+    "fields": {
+      "level": "intermediate",
+      "language": "hi",
+      "text": "वे सप्ताहांत में क्रिकेट खेलते हैं",
+      "image_url": "",
+      "order": 10
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 128,
+    "fields": {
+      "level": "intermediate",
+      "language": "hi",
+      "text": "मेरी बहन चिकित्सा पढ़ रही है",
+      "image_url": "",
+      "order": 11
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 129,
+    "fields": {
+      "level": "intermediate",
+      "language": "hi",
+      "text": "ट्रेन नौ बजे आती है",
+      "image_url": "",
+      "order": 12
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 130,
+    "fields": {
+      "level": "intermediate",
+      "language": "hi",
+      "text": "मैं अपना छाता घर पर भूल गया",
+      "image_url": "",
+      "order": 13
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 131,
+    "fields": {
+      "level": "intermediate",
+      "language": "hi",
+      "text": "वह खूबसूरती से गाती है",
+      "image_url": "",
+      "order": 14
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 132,
+    "fields": {
+      "level": "intermediate",
+      "language": "hi",
+      "text": "हमें अंधेरा होने से पहले निकलना चाहिए",
+      "image_url": "",
+      "order": 15
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 133,
+    "fields": {
+      "level": "intermediate",
+      "language": "hi",
+      "text": "वह हमेशा समय पर आता है",
+      "image_url": "",
+      "order": 16
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 134,
+    "fields": {
+      "level": "intermediate",
+      "language": "hi",
+      "text": "मुझे अपना होमवर्क खत्म करना है",
+      "image_url": "",
+      "order": 17
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 135,
+    "fields": {
+      "level": "intermediate",
+      "language": "hi",
+      "text": "आज मौसम काफ़ी सुहावना है",
+      "image_url": "",
+      "order": 18
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 136,
+    "fields": {
+      "level": "advanced",
+      "language": "hi",
+      "text": "सूरज हर सुबह पूर्व में उगता है",
+      "image_url": "",
+      "order": 1
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 137,
+    "fields": {
+      "level": "advanced",
+      "language": "hi",
+      "text": "पढ़ना आपको दुनिया को बेहतर समझने में मदद करता है",
+      "image_url": "",
+      "order": 2
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 138,
+    "fields": {
+      "level": "advanced",
+      "language": "hi",
+      "text": "मैं इस साल एक नया कौशल सीखना चाहता हूँ",
+      "image_url": "",
+      "order": 3
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 139,
+    "fields": {
+      "level": "advanced",
+      "language": "hi",
+      "text": "पानी जीवन के लिए बहुत महत्वपूर्ण है",
+      "image_url": "",
+      "order": 4
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 140,
+    "fields": {
+      "level": "advanced",
+      "language": "hi",
+      "text": "शिक्षा एक बेहतर भविष्य की कुंजी है",
+      "image_url": "",
+      "order": 5
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 141,
+    "fields": {
+      "level": "advanced",
+      "language": "hi",
+      "text": "हमें भावी पीढ़ियों के लिए पर्यावरण की रक्षा करनी चाहिए",
+      "image_url": "",
+      "order": 6
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 142,
+    "fields": {
+      "level": "advanced",
+      "language": "hi",
+      "text": "सफलता समय के साथ निरंतर प्रयास से आती है",
+      "image_url": "",
+      "order": 7
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 143,
+    "fields": {
+      "level": "advanced",
+      "language": "hi",
+      "text": "प्रौद्योगिकी ने हमारे संवाद करने के तरीके को बदल दिया है",
+      "image_url": "",
+      "order": 8
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 144,
+    "fields": {
+      "level": "advanced",
+      "language": "hi",
+      "text": "जवाब देने से पहले ध्यान से सुनना महत्वपूर्ण है",
+      "image_url": "",
+      "order": 9
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 145,
+    "fields": {
+      "level": "advanced",
+      "language": "hi",
+      "text": "संतुलित आहार अच्छे स्वास्थ्य में योगदान देता है",
+      "image_url": "",
+      "order": 10
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 146,
+    "fields": {
+      "level": "advanced",
+      "language": "hi",
+      "text": "यात्रा करने से विभिन्न संस्कृतियों की समझ बढ़ती है",
+      "image_url": "",
+      "order": 11
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 147,
+    "fields": {
+      "level": "advanced",
+      "language": "hi",
+      "text": "ईमानदारी किसी भी रिश्ते में विश्वास की नींव है",
+      "image_url": "",
+      "order": 12
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 148,
+    "fields": {
+      "level": "advanced",
+      "language": "hi",
+      "text": "पुस्तकालय शांत था सिवाय पन्ने पलटने की आवाज़ के",
+      "image_url": "",
+      "order": 13
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 149,
+    "fields": {
+      "level": "advanced",
+      "language": "hi",
+      "text": "वैज्ञानिक ब्रह्मांड के बारे में नई जानकारी खोजते रहते हैं",
+      "image_url": "",
+      "order": 14
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 150,
+    "fields": {
+      "level": "advanced",
+      "language": "hi",
+      "text": "अच्छे संचार कौशल हर पेशे में मूल्यवान होते हैं",
+      "image_url": "",
+      "order": 15
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 151,
+    "fields": {
+      "level": "advanced",
+      "language": "hi",
+      "text": "सामुदायिक सहयोग कठिन समय में बड़ा अंतर ला सकता है",
+      "image_url": "",
+      "order": 16
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 152,
+    "fields": {
+      "level": "advanced",
+      "language": "hi",
+      "text": "किसी भी कौशल में महारत के लिए अभ्यास और धैर्य ज़रूरी है",
+      "image_url": "",
+      "order": 17
+    }
+  },
+  {
+    "model": "curriculum.voicepracticeitem",
+    "pk": 153,
+    "fields": {
+      "level": "advanced",
+      "language": "hi",
+      "text": "अर्थव्यवस्था उत्पादन और उपभोग दोनों पर निर्भर करती है",
+      "image_url": "",
+      "order": 18
+    }
+  }
+]

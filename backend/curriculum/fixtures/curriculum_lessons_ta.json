@@ -1,0 +1,1014 @@
+[
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 400,
+    "fields": {
+      "lesson": 1,
+      "language": "ta",
+      "body": "எழுத்துக்களில் 26 எழுத்துக்கள் உள்ளன, A முதல் Z வரை. ஒவ்வொரு எழுத்துக்கும் அதன் சொந்த ஒலி உள்ளது.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 500,
+    "fields": {
+      "lesson": 1,
+      "language": "ta",
+      "order": 1,
+      "question_text": "A க்கு உடனடியாக அடுத்து எந்த எழுத்து வருகிறது?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjNkU4NUI3Ii8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iOTAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGQkY4RjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkE8L3RleHQ+PC9zdmc+",
+      "options": [
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "B"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 501,
+    "fields": {
+      "lesson": 1,
+      "language": "ta",
+      "order": 2,
+      "question_text": "Z க்கு முன் எந்த எழுத்து வருகிறது?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjNkU4NUI3Ii8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iOTAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGQkY4RjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlo8L3RleHQ+PC9zdmc+",
+      "options": [
+        "W",
+        "X",
+        "Y"
+      ],
+      "correct_answer": "Y"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 401,
+    "fields": {
+      "lesson": 2,
+      "language": "ta",
+      "body": "உயிரெழுத்துக்கள் A, E, I, O, U. மற்ற அனைத்து எழுத்துக்களும் மெய்யெழுத்துக்கள்.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 502,
+    "fields": {
+      "lesson": 2,
+      "language": "ta",
+      "order": 1,
+      "question_text": "இவற்றில் எது ஒரு உயிரெழுத்து?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjNEY4NTY2Ii8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iOTAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGQkY4RjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkU8L3RleHQ+PC9zdmc+",
+      "options": [
+        "B",
+        "E",
+        "K"
+      ],
+      "correct_answer": "E"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 503,
+    "fields": {
+      "lesson": 2,
+      "language": "ta",
+      "order": 2,
+      "question_text": "இவற்றில் எது ஒரு மெய்யெழுத்து?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjQzE0ODNEIi8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iOTAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGQkY4RjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlQ8L3RleHQ+PC9zdmc+",
+      "options": [
+        "A",
+        "O",
+        "T"
+      ],
+      "correct_answer": "T"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 402,
+    "fields": {
+      "lesson": 3,
+      "language": "ta",
+      "body": "ஒவ்வொரு எழுத்துக்கும் பெரிய வடிவம் மற்றும் சிறிய வடிவம் உள்ளது, A மற்றும் a போல.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 504,
+    "fields": {
+      "lesson": 3,
+      "language": "ta",
+      "order": 1,
+      "question_text": "'A' இன் சிறிய வடிவம் என்ன?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjNkU4NUI3Ii8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iOTAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGQkY4RjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkE8L3RleHQ+PC9zdmc+",
+      "options": [
+        "a",
+        "b",
+        "e"
+      ],
+      "correct_answer": "a"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 505,
+    "fields": {
+      "lesson": 3,
+      "language": "ta",
+      "order": 2,
+      "question_text": "'m' இன் பெரிய வடிவம் என்ன?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjNEY4NTY2Ii8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iMTAwIiBmb250LWZhbWlseT0iR2VvcmdpYSwgc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjRkJGOEYxIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5tPC90ZXh0Pjwvc3ZnPg==",
+      "options": [
+        "N",
+        "M",
+        "W"
+      ],
+      "correct_answer": "M"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 403,
+    "fields": {
+      "lesson": 4,
+      "language": "ta",
+      "body": "ஒவ்வொரு எழுத்தும் சொல்லும்போது ஒரு ஒலியை உண்டாக்குகிறது.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 506,
+    "fields": {
+      "lesson": 4,
+      "language": "ta",
+      "order": 1,
+      "question_text": "எந்த எழுத்து 'ப' ஒலியை உண்டாக்குகிறது?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRTBBOTRDIi8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iOTAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMyMzIzMjMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkI8L3RleHQ+PC9zdmc+",
+      "options": [
+        "B",
+        "S",
+        "M"
+      ],
+      "correct_answer": "B"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 507,
+    "fields": {
+      "lesson": 4,
+      "language": "ta",
+      "order": 2,
+      "question_text": "எந்த எழுத்து 'ஸ்' ஒலியை உண்டாக்குகிறது?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRTBBOTRDIi8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iOTAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMyMzIzMjMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlM8L3RleHQ+PC9zdmc+",
+      "options": [
+        "S",
+        "D",
+        "R"
+      ],
+      "correct_answer": "S"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 404,
+    "fields": {
+      "lesson": 5,
+      "language": "ta",
+      "body": "'வணக்கம்', 'நன்றி' போன்ற வார்த்தைகள் தினமும் பயன்படுத்தப்படுகின்றன.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 508,
+    "fields": {
+      "lesson": 5,
+      "language": "ta",
+      "order": 1,
+      "question_text": "யாரையாவது சந்திக்கும்போது எந்த வார்த்தையைச் சொல்கிறீர்கள்?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PGVsbGlwc2UgY3g9IjEwMCIgY3k9IjkwIiByeD0iNjAiIHJ5PSI0MCIgZmlsbD0iI0UwQTk0QyIvPjxwYXRoIGQ9Ik04NSAxMjUgTDc1IDE0NSBMMTAwIDEyNSBaIiBmaWxsPSIjRTBBOTRDIi8+PC9zdmc+",
+      "options": [
+        "வணக்கம்",
+        "பிரியாவிடை",
+        "மன்னிக்கவும்"
+      ],
+      "correct_answer": "வணக்கம்"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 509,
+    "fields": {
+      "lesson": 5,
+      "language": "ta",
+      "order": 2,
+      "question_text": "ஏதாவது கேட்கும்போது கண்ணியமாக எந்த வார்த்தையைச் சொல்கிறீர்கள்?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PGVsbGlwc2UgY3g9IjEwMCIgY3k9IjkwIiByeD0iNjAiIHJ5PSI0MCIgZmlsbD0iI0UwQTk0QyIvPjxwYXRoIGQ9Ik04NSAxMjUgTDc1IDE0NSBMMTAwIDEyNSBaIiBmaWxsPSIjRTBBOTRDIi8+PC9zdmc+",
+      "options": [
+        "தயவுசெய்து",
+        "இப்போது",
+        "என்னுடையது"
+      ],
+      "correct_answer": "தயவுசெய்து"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 405,
+    "fields": {
+      "lesson": 6,
+      "language": "ta",
+      "body": "உங்களைச் சுற்றியுள்ள பொருட்களுக்கு பெயர்கள் உள்ளன: மேசை, நாற்காலி, கதவு, ஜன்னல்.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 510,
+    "fields": {
+      "lesson": 6,
+      "language": "ta",
+      "order": 1,
+      "question_text": "நாம் உட்காரும் பொருளை என்ன என்று அழைக்கிறோம்?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iNjAiIHk9IjcwIiB3aWR0aD0iODAiIGhlaWdodD0iMTAiIGZpbGw9IiM2RTg1QjciLz48cmVjdCB4PSI2NSIgeT0iODAiIHdpZHRoPSIxMCIgaGVpZ2h0PSI2MCIgZmlsbD0iIzZFODVCNyIvPjxyZWN0IHg9IjEyNSIgeT0iODAiIHdpZHRoPSIxMCIgaGVpZ2h0PSI2MCIgZmlsbD0iIzZFODVCNyIvPjxyZWN0IHg9IjYwIiB5PSI1NSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjMwIiBmaWxsPSIjNkU4NUI3Ii8+PC9zdmc+",
+      "options": [
+        "மேசை",
+        "நாற்காலி",
+        "கதவு"
+      ],
+      "correct_answer": "நாற்காலி"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 511,
+    "fields": {
+      "lesson": 6,
+      "language": "ta",
+      "order": 2,
+      "question_text": "நாம் உள்ளே நடக்கும் திறந்த இடத்தை என்ன என்று அழைக்கிறோம்?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iNzAiIHk9IjQwIiB3aWR0aD0iNjAiIGhlaWdodD0iMTIwIiByeD0iNCIgZmlsbD0iI0MxNDgzRCIvPjxjaXJjbGUgY3g9IjExOCIgY3k9IjEwMCIgcj0iNCIgZmlsbD0iI0ZCRjhGMSIvPjwvc3ZnPg==",
+      "options": [
+        "ஜன்னல்",
+        "கதவு",
+        "மேசை"
+      ],
+      "correct_answer": "கதவு"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 406,
+    "fields": {
+      "lesson": 7,
+      "language": "ta",
+      "body": "நிறங்கள் நம்மைச் சுற்றியுள்ள உலகை விவரிக்க உதவுகின்றன: சிவப்பு, நீலம், பச்சை, மஞ்சள்.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 512,
+    "fields": {
+      "lesson": 7,
+      "language": "ta",
+      "order": 1,
+      "question_text": "இது என்ன நிறம்?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjM0I1OTk4Ii8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iNDAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGQkY4RjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiPuCuqOCvgOCusuCuruCvjTwvdGV4dD48L3N2Zz4=",
+      "options": [
+        "சிவப்பு",
+        "நீலம்",
+        "பச்சை"
+      ],
+      "correct_answer": "நீலம்"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 513,
+    "fields": {
+      "lesson": 7,
+      "language": "ta",
+      "order": 2,
+      "question_text": "இது என்ன நிறம்?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjQzE0ODNEIi8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iMzIiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGQkY4RjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiPuCumuCuv+CuteCuquCvjeCuquCvgTwvdGV4dD48L3N2Zz4=",
+      "options": [
+        "மஞ்சள்",
+        "சிவப்பு",
+        "ஊதா"
+      ],
+      "correct_answer": "சிவப்பு"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 407,
+    "fields": {
+      "lesson": 8,
+      "language": "ta",
+      "body": "எண்கள் பொருட்களை எண்ண உதவுகின்றன: ஒன்று, இரண்டு, மூன்று, பத்து வரை.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 514,
+    "fields": {
+      "lesson": 8,
+      "language": "ta",
+      "order": 1,
+      "question_text": "இது என்ன எண்?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRTBBOTRDIi8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iOTAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMyMzIzMjMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPjU8L3RleHQ+PC9zdmc+",
+      "options": [
+        "3",
+        "5",
+        "7"
+      ],
+      "correct_answer": "5"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 515,
+    "fields": {
+      "lesson": 8,
+      "language": "ta",
+      "order": 2,
+      "question_text": "7க்குப் பிறகு எந்த எண் வருகிறது?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRTBBOTRDIi8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iOTAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMyMzIzMjMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPjc8L3RleHQ+PC9zdmc+",
+      "options": [
+        "6",
+        "8",
+        "9"
+      ],
+      "correct_answer": "8"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 408,
+    "fields": {
+      "lesson": 9,
+      "language": "ta",
+      "body": "வலுவான சொல்லகராதி உங்களை தெளிவாக வெளிப்படுத்த உதவுகிறது.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 516,
+    "fields": {
+      "lesson": 9,
+      "language": "ta",
+      "order": 1,
+      "question_text": "'மிகவும் மகிழ்ச்சி' என்பதற்கு எந்த வார்த்தை?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iNTAiIHk9IjYwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjgwIiByeD0iNiIgZmlsbD0iIzRGODU2NiIvPjxsaW5lIHgxPSIxMDAiIHkxPSI2MCIgeDI9IjEwMCIgeTI9IjE0MCIgc3Ryb2tlPSIjRkJGOEYxIiBzdHJva2Utd2lkdGg9IjMiLz48L3N2Zz4=",
+      "options": [
+        "ஆனந்தம்",
+        "சோர்வு",
+        "கோபம்"
+      ],
+      "correct_answer": "ஆனந்தம்"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 517,
+    "fields": {
+      "lesson": 9,
+      "language": "ta",
+      "order": 2,
+      "question_text": "'கவனமாகப் பார்ப்பது' என்பதற்கு எந்த வார்த்தை?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iNTAiIHk9IjYwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjgwIiByeD0iNiIgZmlsbD0iIzRGODU2NiIvPjxsaW5lIHgxPSIxMDAiIHkxPSI2MCIgeDI9IjEwMCIgeTI9IjE0MCIgc3Ryb2tlPSIjRkJGOEYxIiBzdHJva2Utd2lkdGg9IjMiLz48L3N2Zz4=",
+      "options": [
+        "கவனி",
+        "புறக்கணி",
+        "மற"
+      ],
+      "correct_answer": "கவனி"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 409,
+    "fields": {
+      "lesson": 10,
+      "language": "ta",
+      "body": "ஒத்த சொற்கள் ஒரே பொருளைக் கொண்டவை. எதிர்ச்சொற்கள் எதிர் பொருளைக் கொண்டவை.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 518,
+    "fields": {
+      "lesson": 10,
+      "language": "ta",
+      "order": 1,
+      "question_text": "'பெரியது' என்பதற்கு ஒத்த சொல் எது?",
+      "image_url": "",
+      "options": [
+        "பிரம்மாண்டமான",
+        "சிறியது",
+        "வேகமான"
+      ],
+      "correct_answer": "பிரம்மாண்டமான"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 519,
+    "fields": {
+      "lesson": 10,
+      "language": "ta",
+      "order": 2,
+      "question_text": "'சூடு' என்பதற்கு எதிர்ச்சொல் எது?",
+      "image_url": "",
+      "options": [
+        "வெதுவெதுப்பான",
+        "குளிர்",
+        "பிரகாசமான"
+      ],
+      "correct_answer": "குளிர்"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 410,
+    "fields": {
+      "lesson": 11,
+      "language": "ta",
+      "body": "மரபுத்தொடர் என்பது அதன் சொற்களுக்கு நேரடியாக அர்த்தம் இல்லாத ஒரு சொற்றொடர்.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 520,
+    "fields": {
+      "lesson": 11,
+      "language": "ta",
+      "order": 1,
+      "question_text": "'பனியை உடைத்தல்' என்றால் என்ன?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PGVsbGlwc2UgY3g9IjEwMCIgY3k9IjkwIiByeD0iNjAiIHJ5PSI0MCIgZmlsbD0iI0UwQTk0QyIvPjxwYXRoIGQ9Ik04NSAxMjUgTDc1IDE0NSBMMTAwIDEyNSBaIiBmaWxsPSIjRTBBOTRDIi8+PC9zdmc+",
+      "options": [
+        "உரையாடலைத் தொடங்குதல்",
+        "எதையாவது சேதப்படுத்துதல்",
+        "குளிராகிவிடுதல்"
+      ],
+      "correct_answer": "உரையாடலைத் தொடங்குதல்"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 521,
+    "fields": {
+      "lesson": 11,
+      "language": "ta",
+      "order": 2,
+      "question_text": "'கேக் துண்டு' என்றால் என்ன?",
+      "image_url": "",
+      "options": [
+        "மிக எளிது",
+        "ஒரு இனிப்பு",
+        "மிகவும் கடினம்"
+      ],
+      "correct_answer": "மிக எளிது"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 411,
+    "fields": {
+      "lesson": 12,
+      "language": "ta",
+      "body": "பெயர்ச்சொல் ஒரு நபர், இடம் அல்லது பொருளைக் குறிக்கிறது. வினைச்சொல் ஒரு செயலை விவரிக்கிறது.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 522,
+    "fields": {
+      "lesson": 12,
+      "language": "ta",
+      "order": 1,
+      "question_text": "'நாய் ஓடுகிறது' என்பதில் எது பெயர்ச்சொல்?",
+      "image_url": "",
+      "options": [
+        "நாய்",
+        "ஓடுகிறது",
+        "அது"
+      ],
+      "correct_answer": "நாய்"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 523,
+    "fields": {
+      "lesson": 12,
+      "language": "ta",
+      "order": 2,
+      "question_text": "'அவள் சத்தமாகப் பாடுகிறாள்' என்பதில் எது வினைச்சொல்?",
+      "image_url": "",
+      "options": [
+        "அவள்",
+        "பாடுகிறாள்",
+        "சத்தமாக"
+      ],
+      "correct_answer": "பாடுகிறாள்"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 412,
+    "fields": {
+      "lesson": 13,
+      "language": "ta",
+      "body": "இறந்த காலம் ஏற்கனவே நடந்ததை விவரிக்கிறது. நிகழ் காலம் இப்போது நடக்கிறது.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 524,
+    "fields": {
+      "lesson": 13,
+      "language": "ta",
+      "order": 1,
+      "question_text": "எந்த வாக்கியம் இறந்த காலத்தில் உள்ளது?",
+      "image_url": "",
+      "options": [
+        "நான் நடக்கிறேன்",
+        "நான் நடந்தேன்",
+        "நான் நடப்பேன்"
+      ],
+      "correct_answer": "நான் நடந்தேன்"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 525,
+    "fields": {
+      "lesson": 13,
+      "language": "ta",
+      "order": 2,
+      "question_text": "எந்த வாக்கியம் எதிர் காலத்தில் உள்ளது?",
+      "image_url": "",
+      "options": [
+        "நான் நடப்பேன்",
+        "நான் நடந்தேன்",
+        "நான் நடக்கிறேன்"
+      ],
+      "correct_answer": "நான் நடப்பேன்"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 413,
+    "fields": {
+      "lesson": 14,
+      "language": "ta",
+      "body": "பெயரடை ஒரு பெயர்ச்சொல்லை விவரிக்கிறது, 'உயரமான', 'சிவப்பு' போல.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 526,
+    "fields": {
+      "lesson": 14,
+      "language": "ta",
+      "order": 1,
+      "question_text": "'உயரமான மரம்' என்பதில் எது பெயரடை?",
+      "image_url": "",
+      "options": [
+        "உயரமான",
+        "மரம்",
+        "அது"
+      ],
+      "correct_answer": "உயரமான"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 527,
+    "fields": {
+      "lesson": 14,
+      "language": "ta",
+      "order": 2,
+      "question_text": "எலுமிச்சையை விவரிக்க சிறந்த வார்த்தை எது?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRTBBOTRDIi8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iOTAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMyMzIzMjMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPj88L3RleHQ+PC9zdmc+",
+      "options": [
+        "புளிப்பான",
+        "அமைதியான",
+        "வேகமான"
+      ],
+      "correct_answer": "புளிப்பான"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 414,
+    "fields": {
+      "lesson": 15,
+      "language": "ta",
+      "body": "ஒரு எளிய வாக்கியத்தில் ஒரு எழுவாய் மற்றும் ஒரு வினைச்சொல் உள்ளது.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 528,
+    "fields": {
+      "lesson": 15,
+      "language": "ta",
+      "order": 1,
+      "question_text": "எது ஒரு முழுமையான வாக்கியம்?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iNTAiIHk9IjYwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjgwIiByeD0iNiIgZmlsbD0iIzRGODU2NiIvPjxsaW5lIHgxPSIxMDAiIHkxPSI2MCIgeDI9IjEwMCIgeTI9IjE0MCIgc3Ryb2tlPSIjRkJGOEYxIiBzdHJva2Utd2lkdGg9IjMiLz48L3N2Zz4=",
+      "options": [
+        "அவள் படிக்கிறாள்",
+        "படிப்பது புத்தகம் அவள்",
+        "புத்தகம் அவள்"
+      ],
+      "correct_answer": "அவள் படிக்கிறாள்"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 529,
+    "fields": {
+      "lesson": 15,
+      "language": "ta",
+      "order": 2,
+      "question_text": "எது ஒரு முழுமையான வாக்கியம்?",
+      "image_url": "",
+      "options": [
+        "வேகமாக ஓடுதல்",
+        "நாய் ஓடுகிறது",
+        "நாய் அது"
+      ],
+      "correct_answer": "நாய் ஓடுகிறது"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 415,
+    "fields": {
+      "lesson": 16,
+      "language": "ta",
+      "body": "'மற்றும்', 'ஆனால்', மற்றும் 'ஏனெனில்' போன்ற இணைப்புச் சொற்கள் இரண்டு வாக்கியங்களை இணைக்கின்றன.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 530,
+    "fields": {
+      "lesson": 16,
+      "language": "ta",
+      "order": 1,
+      "question_text": "'நான் சோர்வாக இருந்தேன்' மற்றும் 'நான் விரைவில் தூங்கச் சென்றேன்' என்பதை எந்த வார்த்தை இணைக்கிறது?",
+      "image_url": "",
+      "options": [
+        "ஏனெனில்",
+        "அல்லது",
+        "இல்லை"
+      ],
+      "correct_answer": "ஏனெனில்"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 531,
+    "fields": {
+      "lesson": 16,
+      "language": "ta",
+      "order": 2,
+      "question_text": "'மாறாக' என்பதற்கு எந்த வார்த்தை?",
+      "image_url": "",
+      "options": [
+        "மற்றும்",
+        "ஆனால்",
+        "எனவே"
+      ],
+      "correct_answer": "ஆனால்"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 416,
+    "fields": {
+      "lesson": 17,
+      "language": "ta",
+      "body": "கேள்விகள் பெரும்பாலும் 'என்ன', 'எங்கே', 'ஏன்' போன்ற வார்த்தைகளுடன் தொடங்குகின்றன.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 532,
+    "fields": {
+      "lesson": 17,
+      "language": "ta",
+      "order": 1,
+      "question_text": "ஒரு இடத்தைப் பற்றி கேட்க எந்த வார்த்தையைப் பயன்படுத்துவீர்கள்?",
+      "image_url": "",
+      "options": [
+        "எங்கே",
+        "ஏன்",
+        "யார்"
+      ],
+      "correct_answer": "எங்கே"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 533,
+    "fields": {
+      "lesson": 17,
+      "language": "ta",
+      "order": 2,
+      "question_text": "ஒரு காரணத்தைப் பற்றி கேட்க எந்த வார்த்தையைப் பயன்படுத்துவீர்கள்?",
+      "image_url": "",
+      "options": [
+        "என்ன",
+        "ஏன்",
+        "எப்போது"
+      ],
+      "correct_answer": "ஏன்"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 417,
+    "fields": {
+      "lesson": 18,
+      "language": "ta",
+      "body": "ஒரு பத்தியில் ஒரு முக்கிய கருத்து உள்ளது, சில வாக்கியங்களால் ஆதரிக்கப்படுகிறது.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 534,
+    "fields": {
+      "lesson": 18,
+      "language": "ta",
+      "order": 1,
+      "question_text": "ஒரு பத்தி என்ன வேண்டும்?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iNTAiIHk9IjYwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjgwIiByeD0iNiIgZmlsbD0iIzRGODU2NiIvPjxsaW5lIHgxPSIxMDAiIHkxPSI2MCIgeDI9IjEwMCIgeTI9IjE0MCIgc3Ryb2tlPSIjRkJGOEYxIiBzdHJva2Utd2lkdGg9IjMiLz48L3N2Zz4=",
+      "options": [
+        "ஒரு முக்கிய கருத்து",
+        "எந்த கட்டமைப்பும் இல்லை",
+        "சீரற்ற உண்மைகள்"
+      ],
+      "correct_answer": "ஒரு முக்கிய கருத்து"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 535,
+    "fields": {
+      "lesson": 18,
+      "language": "ta",
+      "order": 2,
+      "question_text": "ஒரு பத்தியின் முதல் வாக்கியம் என்ன அழைக்கப்படுகிறது?",
+      "image_url": "",
+      "options": [
+        "தலைப்பு வாக்கியம்",
+        "முடிவு வாக்கியம்",
+        "சீரற்ற வாக்கியம்"
+      ],
+      "correct_answer": "தலைப்பு வாக்கியம்"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 418,
+    "fields": {
+      "lesson": 19,
+      "language": "ta",
+      "body": "விளக்க எழுத்து புலனுணர்வு விவரங்களைப் பயன்படுத்துகிறது.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 536,
+    "fields": {
+      "lesson": 19,
+      "language": "ta",
+      "order": 1,
+      "question_text": "ஒரு வாசனையை விவரிக்க எந்த புலனைப் பயன்படுத்துவீர்கள்?",
+      "image_url": "",
+      "options": [
+        "வாசனை",
+        "பார்வை",
+        "ஒலி"
+      ],
+      "correct_answer": "வாசனை"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 537,
+    "fields": {
+      "lesson": 19,
+      "language": "ta",
+      "order": 2,
+      "question_text": "எந்த வாக்கியம் விளக்க விவரத்தைப் பயன்படுத்துகிறது?",
+      "image_url": "",
+      "options": [
+        "கேக் இனிமையாகவும் சூடாகவும் இருந்தது",
+        "கேக் அங்கே இருந்தது",
+        "ஒரு கேக் இருந்தது"
+      ],
+      "correct_answer": "கேக் இனிமையாகவும் சூடாகவும் இருந்தது"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 419,
+    "fields": {
+      "lesson": 20,
+      "language": "ta",
+      "body": "வற்புறுத்தும் எழுத்து வாசகருக்கு காரணங்களையும் ஆதாரங்களையும் வழங்குகிறது.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 538,
+    "fields": {
+      "lesson": 20,
+      "language": "ta",
+      "order": 1,
+      "question_text": "வற்புறுத்தும் எழுத்து என்ன செய்ய முயற்சிக்கிறது?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PGVsbGlwc2UgY3g9IjEwMCIgY3k9IjkwIiByeD0iNjAiIHJ5PSI0MCIgZmlsbD0iI0UwQTk0QyIvPjxwYXRoIGQ9Ik04NSAxMjUgTDc1IDE0NSBMMTAwIDEyNSBaIiBmaWxsPSIjRTBBOTRDIi8+PC9zdmc+",
+      "options": [
+        "வாசகரை நம்ப வைத்தல்",
+        "வாசகரைக் குழப்புதல்",
+        "ஒரு காட்சியை விவரித்தல்"
+      ],
+      "correct_answer": "வாசகரை நம்ப வைத்தல்"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 539,
+    "fields": {
+      "lesson": 20,
+      "language": "ta",
+      "order": 2,
+      "question_text": "எது ஒரு வற்புறுத்தும் வாக்கியம்?",
+      "image_url": "",
+      "options": [
+        "பூமிக்கு உதவ நீங்கள் மறுசுழற்சி செய்ய வேண்டும்",
+        "வானம் நீலமாக உள்ளது",
+        "நேற்று மழை பெய்தது"
+      ],
+      "correct_answer": "பூமிக்கு உதவ நீங்கள் மறுசுழற்சி செய்ய வேண்டும்"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 420,
+    "fields": {
+      "lesson": 21,
+      "language": "ta",
+      "body": "அர்த்தத்திற்காக படிப்பது என்பது எழுத்தாளர் உண்மையில் என்ன சொல்கிறார் என்பதைப் புரிந்துகொள்வது.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 540,
+    "fields": {
+      "lesson": 21,
+      "language": "ta",
+      "order": 1,
+      "question_text": "'அர்த்தத்திற்காக படிப்பது' எதில் கவனம் செலுத்துகிறது?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iNTAiIHk9IjYwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjgwIiByeD0iNiIgZmlsbD0iIzRGODU2NiIvPjxsaW5lIHgxPSIxMDAiIHkxPSI2MCIgeDI9IjEwMCIgeTI9IjE0MCIgc3Ryb2tlPSIjRkJGOEYxIiBzdHJva2Utd2lkdGg9IjMiLz48L3N2Zz4=",
+      "options": [
+        "செய்தியைப் புரிந்துகொள்வது",
+        "சொற்களை எண்ணுவது",
+        "வேகமாக படிப்பது"
+      ],
+      "correct_answer": "செய்தியைப் புரிந்துகொள்வது"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 541,
+    "fields": {
+      "lesson": 21,
+      "language": "ta",
+      "order": 2,
+      "question_text": "ஒரு பத்தியில் நீங்கள் எதைத் தேட வேண்டும்?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iNTAiIHk9IjYwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjgwIiByeD0iNiIgZmlsbD0iIzRGODU2NiIvPjxsaW5lIHgxPSIxMDAiIHkxPSI2MCIgeDI9IjEwMCIgeTI9IjE0MCIgc3Ryb2tlPSIjRkJGOEYxIiBzdHJva2Utd2lkdGg9IjMiLz48L3N2Zz4=",
+      "options": [
+        "முக்கிய கருத்து",
+        "மிக நீளமான சொல்",
+        "கடைசி எழுத்து"
+      ],
+      "correct_answer": "முக்கிய கருத்து"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 421,
+    "fields": {
+      "lesson": 22,
+      "language": "ta",
+      "body": "அனுமானம் செய்வது என்பது ப஠்யத்தில் உள்ள குறிப்புகளைப் பயன்படுத்துவது.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 542,
+    "fields": {
+      "lesson": 22,
+      "language": "ta",
+      "order": 1,
+      "question_text": "ஒரு அனுமானம் எதன் அடிப்படையில் உள்ளது?",
+      "image_url": "",
+      "options": [
+        "உரையில் உள்ள குறிப்புகள்",
+        "சீரற்ற யூகம்",
+        "தலைப்பு மட்டும்"
+      ],
+      "correct_answer": "உரையில் உள்ள குறிப்புகள்"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 543,
+    "fields": {
+      "lesson": 22,
+      "language": "ta",
+      "order": 2,
+      "question_text": "ஒரு பாத்திரம் சிரித்துக்கொண்டிருந்தால், அவர்கள் எப்படி உணர்கிறார்கள்?",
+      "image_url": "",
+      "options": [
+        "மகிழ்ச்சி",
+        "சோகம்",
+        "கோபம்"
+      ],
+      "correct_answer": "மகிழ்ச்சி"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 422,
+    "fields": {
+      "lesson": 23,
+      "language": "ta",
+      "body": "ஒரு சுருக்கம் ஒரு உரையின் முக்கியமான பகுதிகளை உங்கள் சொந்த வார்த்தைகளில் மீண்டும் கூறுகிறது.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 544,
+    "fields": {
+      "lesson": 23,
+      "language": "ta",
+      "order": 1,
+      "question_text": "ஒரு நல்ல சுருக்கம் எப்படி இருக்க வேண்டும்?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iNTAiIHk9IjYwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjgwIiByeD0iNiIgZmlsbD0iIzRGODU2NiIvPjxsaW5lIHgxPSIxMDAiIHkxPSI2MCIgeDI9IjEwMCIgeTI9IjE0MCIgc3Ryb2tlPSIjRkJGOEYxIiBzdHJva2Utd2lkdGg9IjMiLz48L3N2Zz4=",
+      "options": [
+        "குறுகியதாகவும் தெளிவாகவும்",
+        "மூலத்தைப் போலவே நீளமாக",
+        "புதிய கருத்துக்களால் நிறைந்தது"
+      ],
+      "correct_answer": "குறுகியதாகவும் தெளிவாகவும்"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 545,
+    "fields": {
+      "lesson": 23,
+      "language": "ta",
+      "order": 2,
+      "question_text": "ஒரு சுருக்கம் யாருடைய வார்த்தைகளில் எழுதப்பட வேண்டும்?",
+      "image_url": "",
+      "options": [
+        "உங்கள் சொந்த வார்த்தைகளில்",
+        "ஆசிரியரின் சரியான வார்த்தைகளில்",
+        "சீரற்ற வார்த்தைகளில்"
+      ],
+      "correct_answer": "உங்கள் சொந்த வார்த்தைகளில்"
+    }
+  }
+]

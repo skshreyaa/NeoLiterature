@@ -1,0 +1,310 @@
+[
+  {
+    "model": "curriculum.picturelabitem",
+    "pk": 1,
+    "fields": {
+      "level": "beginner",
+      "language": "en",
+      "image_url": "https://images.pexels.com/photos/1630588/pexels-photo-1630588.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "correct_answer": "Apple",
+      "order": 1
+    }
+  },
+  {
+    "model": "curriculum.picturelabitem",
+    "pk": 2,
+    "fields": {
+      "level": "beginner",
+      "language": "en",
+      "image_url": "https://images.pexels.com/photos/16395150/pexels-photo-16395150.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "correct_answer": "Dog and cat",
+      "order": 2
+    }
+  },
+  {
+    "model": "curriculum.picturelabitem",
+    "pk": 3,
+    "fields": {
+      "level": "beginner",
+      "language": "en",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iOTAiIHk9IjEyMCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjUwIiBmaWxsPSIjOEI1QTJCIi8+PGNpcmNsZSBjeD0iMTAwIiBjeT0iOTAiIHI9IjUwIiBmaWxsPSIjNEY4NTY2Ii8+PC9zdmc+",
+      "correct_answer": "Tree",
+      "order": 3
+    }
+  },
+  {
+    "model": "curriculum.picturelabitem",
+    "pk": 4,
+    "fields": {
+      "level": "beginner",
+      "language": "en",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PGNpcmNsZSBjeD0iMTAwIiBjeT0iMTAwIiByPSI0MCIgZmlsbD0iI0UwQTk0QyIvPjxnIHN0cm9rZT0iI0UwQTk0QyIgc3Ryb2tlLXdpZHRoPSI2Ij48bGluZSB4MT0iMTAwIiB5MT0iMjAiIHgyPSIxMDAiIHkyPSI0MCIvPjxsaW5lIHgxPSIxMDAiIHkxPSIxNjAiIHgyPSIxMDAiIHkyPSIxODAiLz48bGluZSB4MT0iMjAiIHkxPSIxMDAiIHgyPSI0MCIgeTI9IjEwMCIvPjxsaW5lIHgxPSIxNjAiIHkxPSIxMDAiIHgyPSIxODAiIHkyPSIxMDAiLz48L2c+PC9zdmc+",
+      "correct_answer": "Sun",
+      "order": 4
+    }
+  },
+  {
+    "model": "curriculum.picturelabitem",
+    "pk": 5,
+    "fields": {
+      "level": "beginner",
+      "language": "en",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PGNpcmNsZSBjeD0iMTAwIiBjeT0iMTAwIiByPSI1NSIgZmlsbD0iI0MxNDgzRCIvPjxwYXRoIGQ9Ik02MCA3MCBRMTAwIDEwMCAxNDAgNzAgTTYwIDEzMCBRMTAwIDEwMCAxNDAgMTMwIiBzdHJva2U9IiNGQkY4RjEiIHN0cm9rZS13aWR0aD0iNCIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==",
+      "correct_answer": "Ball",
+      "order": 5
+    }
+  },
+  {
+    "model": "curriculum.picturelabitem",
+    "pk": 6,
+    "fields": {
+      "level": "beginner",
+      "language": "en",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHBhdGggZD0iTTYwIDcwIEw2MCAxMzAgUTYwIDE1MCAxMDAgMTUwIFExNDAgMTUwIDE0MCAxMzAgTDE0MCA3MCBaIiBmaWxsPSIjNkU4NUI3Ii8+PHBhdGggZD0iTTE0MCA4NSBRMTY1IDg1IDE2NSAxMDUgUTE2NSAxMjUgMTQwIDEyMCIgc3Ryb2tlPSIjNkU4NUI3IiBzdHJva2Utd2lkdGg9IjgiIGZpbGw9Im5vbmUiLz48L3N2Zz4=",
+      "correct_answer": "Cup",
+      "order": 6
+    }
+  },
+  {
+    "model": "curriculum.picturelabitem",
+    "pk": 7,
+    "fields": {
+      "level": "beginner",
+      "language": "en",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PGVsbGlwc2UgY3g9IjkwIiBjeT0iMTAwIiByeD0iNTAiIHJ5PSIyOCIgZmlsbD0iIzRGODU2NiIvPjxwYXRoIGQ9Ik0xNDAgMTAwIEwxNjUgODAgTDE2NSAxMjAgWiIgZmlsbD0iIzRGODU2NiIvPjxjaXJjbGUgY3g9IjY1IiBjeT0iOTUiIHI9IjQiIGZpbGw9IiNGQkY4RjEiLz48L3N2Zz4=",
+      "correct_answer": "Fish",
+      "order": 7
+    }
+  },
+  {
+    "model": "curriculum.picturelabitem",
+    "pk": 8,
+    "fields": {
+      "level": "beginner",
+      "language": "en",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PGNpcmNsZSBjeD0iMTAwIiBjeT0iOTAiIHI9IjE0IiBmaWxsPSIjRTBBOTRDIi8+PGNpcmNsZSBjeD0iODAiIGN5PSI3MCIgcj0iMTYiIGZpbGw9IiNDMTQ4M0QiLz48Y2lyY2xlIGN4PSIxMjAiIGN5PSI3MCIgcj0iMTYiIGZpbGw9IiNDMTQ4M0QiLz48Y2lyY2xlIGN4PSI4MCIgY3k9IjExMCIgcj0iMTYiIGZpbGw9IiNDMTQ4M0QiLz48Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMTAiIHI9IjE2IiBmaWxsPSIjQzE0ODNEIi8+PHJlY3QgeD0iOTYiIHk9IjEwNCIgd2lkdGg9IjgiIGhlaWdodD0iNjAiIGZpbGw9IiM0Rjg1NjYiLz48L3N2Zz4=",
+      "correct_answer": "Flower",
+      "order": 8
+    }
+  },
+  {
+    "model": "curriculum.picturelabitem",
+    "pk": 9,
+    "fields": {
+      "level": "beginner",
+      "language": "en",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PGVsbGlwc2UgY3g9IjEwMCIgY3k9IjEwNSIgcng9IjQ1IiByeT0iMzAiIGZpbGw9IiNFMEE5NEMiLz48Y2lyY2xlIGN4PSIxNDAiIGN5PSI4NSIgcj0iMTYiIGZpbGw9IiNFMEE5NEMiLz48cGF0aCBkPSJNMTU1IDg1IEwxNzIgOTAgTDE1NSA5NSBaIiBmaWxsPSIjQzE0ODNEIi8+PC9zdmc+",
+      "correct_answer": "Bird",
+      "order": 9
+    }
+  },
+  {
+    "model": "curriculum.picturelabitem",
+    "pk": 10,
+    "fields": {
+      "level": "beginner",
+      "language": "en",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iNjAiIHk9IjEwMCIgd2lkdGg9IjgwIiBoZWlnaHQ9IjYwIiBmaWxsPSIjQzE0ODNEIi8+PHBhdGggZD0iTTUwIDEwMCBMMTAwIDYwIEwxNTAgMTAwIFoiIGZpbGw9IiM4QjVBMkIiLz48cmVjdCB4PSI5MCIgeT0iMTI1IiB3aWR0aD0iMjAiIGhlaWdodD0iMzUiIGZpbGw9IiNGQkY4RjEiLz48L3N2Zz4=",
+      "correct_answer": "House",
+      "order": 10
+    }
+  },
+  {
+    "model": "curriculum.picturelabitem",
+    "pk": 11,
+    "fields": {
+      "level": "beginner",
+      "language": "en",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHBhdGggZD0iTTEyMCA0MCBBNjAgNjAgMCAxIDAgMTIwIDE2MCBBNDggNDggMCAxIDEgMTIwIDQwIFoiIGZpbGw9IiM2RTg1QjciLz48L3N2Zz4=",
+      "correct_answer": "Moon",
+      "order": 11
+    }
+  },
+  {
+    "model": "curriculum.picturelabitem",
+    "pk": 12,
+    "fields": {
+      "level": "beginner",
+      "language": "en",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHBhdGggZD0iTTEwMCAzMCBMMTE1IDc1IEwxNjMgNzUgTDEyNCAxMDMgTDEzOSAxNDggTDEwMCAxMjAgTDYxIDE0OCBMNzYgMTAzIEwzNyA3NSBMODUgNzUgWiIgZmlsbD0iI0UwQTk0QyIvPjwvc3ZnPg==",
+      "correct_answer": "Star",
+      "order": 12
+    }
+  },
+  {
+    "model": "curriculum.picturelabitem",
+    "pk": 13,
+    "fields": {
+      "level": "intermediate",
+      "language": "en",
+      "image_url": "https://images.pexels.com/photos/7403773/pexels-photo-7403773.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "correct_answer": "Billiard balls",
+      "order": 1
+    }
+  },
+  {
+    "model": "curriculum.picturelabitem",
+    "pk": 14,
+    "fields": {
+      "level": "intermediate",
+      "language": "en",
+      "image_url": "https://images.pexels.com/photos/19856566/pexels-photo-19856566.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "correct_answer": "Plate of food",
+      "order": 2
+    }
+  },
+  {
+    "model": "curriculum.picturelabitem",
+    "pk": 15,
+    "fields": {
+      "level": "intermediate",
+      "language": "en",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHBhdGggZD0iTTQwIDEwMCBBNjAgNjAgMCAwIDEgMTYwIDEwMCBaIiBmaWxsPSIjNkU4NUI3Ii8+PGxpbmUgeDE9IjEwMCIgeTE9IjEwMCIgeDI9IjEwMCIgeTI9IjE2NSIgc3Ryb2tlPSIjMjMyMzIzIiBzdHJva2Utd2lkdGg9IjUiLz48cGF0aCBkPSJNMTAwIDE2NSBRMTAwIDE3OCA4OCAxNzgiIHN0cm9rZT0iIzIzMjMyMyIgc3Ryb2tlLXdpZHRoPSI1IiBmaWxsPSJub25lIi8+PC9zdmc+",
+      "correct_answer": "Umbrella",
+      "order": 3
+    }
+  },
+  {
+    "model": "curriculum.picturelabitem",
+    "pk": 16,
+    "fields": {
+      "level": "intermediate",
+      "language": "en",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PGNpcmNsZSBjeD0iNjAiIGN5PSIxMzAiIHI9IjI4IiBmaWxsPSJub25lIiBzdHJva2U9IiMyMzIzMjMiIHN0cm9rZS13aWR0aD0iNiIvPjxjaXJjbGUgY3g9IjE0MCIgY3k9IjEzMCIgcj0iMjgiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzIzMjMyMyIgc3Ryb2tlLXdpZHRoPSI2Ii8+PHBhdGggZD0iTTYwIDEzMCBMMTAwIDgwIEwxNDAgMTMwIE0xMDAgODAgTDg1IDEzMCIgc3Ryb2tlPSIjNkU4NUI3IiBzdHJva2Utd2lkdGg9IjUiIGZpbGw9Im5vbmUiLz48L3N2Zz4=",
+      "correct_answer": "Bicycle",
+      "order": 4
+    }
+  },
+  {
+    "model": "curriculum.picturelabitem",
+    "pk": 17,
+    "fields": {
+      "level": "intermediate",
+      "language": "en",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PGNpcmNsZSBjeD0iNjUiIGN5PSIxMDAiIHI9IjI1IiBmaWxsPSJub25lIiBzdHJva2U9IiNFMEE5NEMiIHN0cm9rZS13aWR0aD0iMTAiLz48cmVjdCB4PSI4OCIgeT0iOTMiIHdpZHRoPSI3NSIgaGVpZ2h0PSIxNCIgZmlsbD0iI0UwQTk0QyIvPjxyZWN0IHg9IjE0MCIgeT0iMTA3IiB3aWR0aD0iMTAiIGhlaWdodD0iMTgiIGZpbGw9IiNFMEE5NEMiLz48cmVjdCB4PSIxNTUiIHk9IjEwNyIgd2lkdGg9IjEwIiBoZWlnaHQ9IjE0IiBmaWxsPSIjRTBBOTRDIi8+PC9zdmc+",
+      "correct_answer": "Key",
+      "order": 5
+    }
+  },
+  {
+    "model": "curriculum.picturelabitem",
+    "pk": 18,
+    "fields": {
+      "level": "intermediate",
+      "language": "en",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PGNpcmNsZSBjeD0iMTAwIiBjeT0iMTAwIiByPSI1NSIgZmlsbD0iI0ZCRjhGMSIgc3Ryb2tlPSIjMjMyMzIzIiBzdHJva2Utd2lkdGg9IjYiLz48bGluZSB4MT0iMTAwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iNjUiIHN0cm9rZT0iIzIzMjMyMyIgc3Ryb2tlLXdpZHRoPSI2Ii8+PGxpbmUgeDE9IjEwMCIgeTE9IjEwMCIgeDI9IjEyNSIgeTI9IjExMCIgc3Ryb2tlPSIjMjMyMzIzIiBzdHJva2Utd2lkdGg9IjYiLz48L3N2Zz4=",
+      "correct_answer": "Clock",
+      "order": 6
+    }
+  },
+  {
+    "model": "curriculum.picturelabitem",
+    "pk": 19,
+    "fields": {
+      "level": "intermediate",
+      "language": "en",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHBhdGggZD0iTTQwIDEzMCBRNDAgMTEwIDcwIDExMCBMMTEwIDEwMCBRMTQwIDk1IDE2MCAxMTAgUTE3MCAxMjAgMTY1IDEzNSBMNDUgMTQwIFoiIGZpbGw9IiM2RTg1QjciLz48L3N2Zz4=",
+      "correct_answer": "Shoe",
+      "order": 7
+    }
+  },
+  {
+    "model": "curriculum.picturelabitem",
+    "pk": 20,
+    "fields": {
+      "level": "intermediate",
+      "language": "en",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PGVsbGlwc2UgY3g9IjEwMCIgY3k9IjE0MCIgcng9IjcwIiByeT0iMTQiIGZpbGw9IiM4QjVBMkIiLz48cGF0aCBkPSJNNzUgMTQwIEw4MCA4MCBRMTAwIDY1IDEyMCA4MCBMMTI1IDE0MCBaIiBmaWxsPSIjQzE0ODNEIi8+PC9zdmc+",
+      "correct_answer": "Hat",
+      "order": 8
+    }
+  },
+  {
+    "model": "curriculum.picturelabitem",
+    "pk": 21,
+    "fields": {
+      "level": "intermediate",
+      "language": "en",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iNjUiIHk9IjQ1IiB3aWR0aD0iNzAiIGhlaWdodD0iMTEwIiByeD0iMTIiIGZpbGw9IiMyMzIzMjMiLz48cmVjdCB4PSI3MiIgeT0iNTUiIHdpZHRoPSI1NiIgaGVpZ2h0PSI4NSIgZmlsbD0iIzZFODVCNyIvPjxjaXJjbGUgY3g9IjEwMCIgY3k9IjE0OCIgcj0iNCIgZmlsbD0iI0ZCRjhGMSIvPjwvc3ZnPg==",
+      "correct_answer": "Phone",
+      "order": 9
+    }
+  },
+  {
+    "model": "curriculum.picturelabitem",
+    "pk": 22,
+    "fields": {
+      "level": "advanced",
+      "language": "en",
+      "image_url": "https://images.pexels.com/photos/15871304/pexels-photo-15871304.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "correct_answer": "Sunrise",
+      "order": 1
+    }
+  },
+  {
+    "model": "curriculum.picturelabitem",
+    "pk": 23,
+    "fields": {
+      "level": "advanced",
+      "language": "en",
+      "image_url": "https://images.pexels.com/photos/321526/pexels-photo-321526.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "correct_answer": "Elephants walking",
+      "order": 2
+    }
+  },
+  {
+    "model": "curriculum.picturelabitem",
+    "pk": 24,
+    "fields": {
+      "level": "advanced",
+      "language": "en",
+      "image_url": "https://images.pexels.com/photos/5268869/pexels-photo-5268869.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "correct_answer": "Bird's nest",
+      "order": 3
+    }
+  },
+  {
+    "model": "curriculum.picturelabitem",
+    "pk": 25,
+    "fields": {
+      "level": "advanced",
+      "language": "en",
+      "image_url": "https://images.pexels.com/photos/733192/pexels-photo-733192.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "correct_answer": "Hiking trail",
+      "order": 4
+    }
+  },
+  {
+    "model": "curriculum.picturelabitem",
+    "pk": 26,
+    "fields": {
+      "level": "advanced",
+      "language": "en",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iOTAiIHk9IjEyMCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjUwIiBmaWxsPSIjOEI1QTJCIi8+PGNpcmNsZSBjeD0iMTAwIiBjeT0iOTAiIHI9IjUwIiBmaWxsPSIjNEY4NTY2Ii8+PC9zdmc+",
+      "correct_answer": "Tree",
+      "order": 5
+    }
+  },
+  {
+    "model": "curriculum.picturelabitem",
+    "pk": 27,
+    "fields": {
+      "level": "advanced",
+      "language": "en",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iNjAiIHk9IjEwMCIgd2lkdGg9IjgwIiBoZWlnaHQ9IjYwIiBmaWxsPSIjQzE0ODNEIi8+PHBhdGggZD0iTTUwIDEwMCBMMTAwIDYwIEwxNTAgMTAwIFoiIGZpbGw9IiM4QjVBMkIiLz48cmVjdCB4PSI5MCIgeT0iMTI1IiB3aWR0aD0iMjAiIGhlaWdodD0iMzUiIGZpbGw9IiNGQkY4RjEiLz48L3N2Zz4=",
+      "correct_answer": "House",
+      "order": 6
+    }
+  },
+  {
+    "model": "curriculum.picturelabitem",
+    "pk": 28,
+    "fields": {
+      "level": "advanced",
+      "language": "en",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PGNpcmNsZSBjeD0iMTAwIiBjeT0iMTAwIiByPSI1NSIgZmlsbD0iI0ZCRjhGMSIgc3Ryb2tlPSIjMjMyMzIzIiBzdHJva2Utd2lkdGg9IjYiLz48bGluZSB4MT0iMTAwIiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iNjUiIHN0cm9rZT0iIzIzMjMyMyIgc3Ryb2tlLXdpZHRoPSI2Ii8+PGxpbmUgeDE9IjEwMCIgeTE9IjEwMCIgeDI9IjEyNSIgeTI9IjExMCIgc3Ryb2tlPSIjMjMyMzIzIiBzdHJva2Utd2lkdGg9IjYiLz48L3N2Zz4=",
+      "correct_answer": "Clock",
+      "order": 7
+    }
+  }
+]

@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+body { font-family: 'Nunito Sans', sans-serif; }
+
+:root {
+  --color-paper: 251, 248, 241;
+  --color-ink: 35, 35, 35;
+  --color-rule: 110, 133, 183;
+  --color-pencil: 193, 72, 61;
+  --color-marigold: 224, 169, 76;
+  --color-sage: 79, 133, 102;
+  --color-surface: 255, 255, 255;
+}
+
+.dark {
+  --color-paper: 26, 23, 20;
+  --color-ink: 237, 233, 224;
+  --color-rule: 143, 163, 209;
+  --color-pencil: 214, 102, 87;
+  --color-marigold: 237, 187, 106;
+  --color-sage: 111, 163, 131;
+  --color-surface: 42, 36, 30;
+}
+
+body {
+  background-color: rgb(var(--color-paper));
+  color: rgb(var(--color-ink));
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.notebook-page {
+  background-color: rgb(var(--color-paper));
+  background-image:
+    linear-gradient(to bottom, transparent 0px, transparent 35px, rgba(var(--color-rule), 0.28) 36px),
+    linear-gradient(to right, transparent 0px, transparent 63px, rgba(var(--color-pencil), 0.35) 64px, transparent 65px);
+  background-size: 100% 36px, 100% 100%;
+  background-repeat: repeat-y, no-repeat;
+}
+
+@media (max-width: 640px) {
+  .notebook-page {
+    background-image:
+      linear-gradient(to bottom, transparent 0px, transparent 31px, rgba(var(--color-rule), 0.28) 32px),
+      linear-gradient(to right, transparent 0px, transparent 27px, rgba(var(--color-pencil), 0.35) 28px, transparent 29px);
+    background-size: 100% 32px, 100% 100%;
+  }
+}
+
+/* Retheme literal white/gray utilities used throughout the app for card
+   surfaces, without needing to touch every component file. */
+.dark .bg-white { background-color: rgb(var(--color-surface)) !important; }
+.dark .bg-white\/60 { background-color: rgba(var(--color-surface), 0.6) !important; }
+.dark .bg-paper\/95 { background-color: rgba(var(--color-paper), 0.95) !important; }
+.dark .border-ink\/10 { border-color: rgba(var(--color-ink), 0.14) !important; }
+.dark .border-ink\/15 { border-color: rgba(var(--color-ink), 0.18) !important; }
+.dark .border-ink\/20 { border-color: rgba(var(--color-ink), 0.22) !important; }
+
+.focus-ring:focus-visible { outline: 3px solid rgb(var(--color-rule)); outline-offset: 2px; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

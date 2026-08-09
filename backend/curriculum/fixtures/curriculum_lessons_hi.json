@@ -1,0 +1,1014 @@
+[
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 24,
+    "fields": {
+      "lesson": 1,
+      "language": "hi",
+      "body": "वर्णमाला में 26 अक्षर होते हैं, A से Z तक। हर अक्षर की अपनी ध्वनि होती है।",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 200,
+    "fields": {
+      "lesson": 1,
+      "language": "hi",
+      "order": 1,
+      "question_text": "A के ठीक बाद कौन सा अक्षर आता है?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjNkU4NUI3Ii8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iOTAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGQkY4RjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkE8L3RleHQ+PC9zdmc+",
+      "options": [
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "B"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 201,
+    "fields": {
+      "lesson": 1,
+      "language": "hi",
+      "order": 2,
+      "question_text": "Z से ठीक पहले कौन सा अक्षर आता है?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjNkU4NUI3Ii8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iOTAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGQkY4RjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlo8L3RleHQ+PC9zdmc+",
+      "options": [
+        "W",
+        "X",
+        "Y"
+      ],
+      "correct_answer": "Y"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 25,
+    "fields": {
+      "lesson": 2,
+      "language": "hi",
+      "body": "स्वर हैं A, E, I, O, U। बाकी सभी अक्षर व्यंजन हैं।",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 202,
+    "fields": {
+      "lesson": 2,
+      "language": "hi",
+      "order": 1,
+      "question_text": "इनमें से कौन सा एक स्वर है?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjNEY4NTY2Ii8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iOTAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGQkY4RjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkU8L3RleHQ+PC9zdmc+",
+      "options": [
+        "B",
+        "E",
+        "K"
+      ],
+      "correct_answer": "E"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 203,
+    "fields": {
+      "lesson": 2,
+      "language": "hi",
+      "order": 2,
+      "question_text": "इनमें से कौन सा एक व्यंजन है?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjQzE0ODNEIi8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iOTAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGQkY4RjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlQ8L3RleHQ+PC9zdmc+",
+      "options": [
+        "A",
+        "O",
+        "T"
+      ],
+      "correct_answer": "T"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 26,
+    "fields": {
+      "lesson": 3,
+      "language": "hi",
+      "body": "हर अक्षर का एक बड़ा (कैपिटल) रूप और एक छोटा (स्मॉल) रूप होता है, जैसे A और a।",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 204,
+    "fields": {
+      "lesson": 3,
+      "language": "hi",
+      "order": 1,
+      "question_text": "'A' का छोटा रूप क्या है?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjNkU4NUI3Ii8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iOTAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGQkY4RjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkE8L3RleHQ+PC9zdmc+",
+      "options": [
+        "a",
+        "b",
+        "e"
+      ],
+      "correct_answer": "a"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 205,
+    "fields": {
+      "lesson": 3,
+      "language": "hi",
+      "order": 2,
+      "question_text": "'m' का बड़ा रूप क्या है?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjNEY4NTY2Ii8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iMTAwIiBmb250LWZhbWlseT0iR2VvcmdpYSwgc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjRkJGOEYxIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5tPC90ZXh0Pjwvc3ZnPg==",
+      "options": [
+        "N",
+        "M",
+        "W"
+      ],
+      "correct_answer": "M"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 27,
+    "fields": {
+      "lesson": 4,
+      "language": "hi",
+      "body": "हर अक्षर बोलते समय एक ध्वनि बनाता है। अक्षरों की ध्वनि का अभ्यास पढ़ने में मदद करता है।",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 206,
+    "fields": {
+      "lesson": 4,
+      "language": "hi",
+      "order": 1,
+      "question_text": "कौन सा अक्षर 'बुह' ध्वनि बनाता है?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRTBBOTRDIi8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iOTAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMyMzIzMjMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkI8L3RleHQ+PC9zdmc+",
+      "options": [
+        "B",
+        "S",
+        "M"
+      ],
+      "correct_answer": "B"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 207,
+    "fields": {
+      "lesson": 4,
+      "language": "hi",
+      "order": 2,
+      "question_text": "कौन सा अक्षर 'सस्स' ध्वनि बनाता है?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRTBBOTRDIi8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iOTAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMyMzIzMjMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlM8L3RleHQ+PC9zdmc+",
+      "options": [
+        "S",
+        "D",
+        "R"
+      ],
+      "correct_answer": "S"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 28,
+    "fields": {
+      "lesson": 5,
+      "language": "hi",
+      "body": "'नमस्ते', 'धन्यवाद' जैसे शब्द हर दिन इस्तेमाल होते हैं। इन्हें सीखना विनम्रता से बोलने में मदद करता है।",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 208,
+    "fields": {
+      "lesson": 5,
+      "language": "hi",
+      "order": 1,
+      "question_text": "किसी से मिलते समय आप कौन सा शब्द कहते हैं?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PGVsbGlwc2UgY3g9IjEwMCIgY3k9IjkwIiByeD0iNjAiIHJ5PSI0MCIgZmlsbD0iI0UwQTk0QyIvPjxwYXRoIGQ9Ik04NSAxMjUgTDc1IDE0NSBMMTAwIDEyNSBaIiBmaWxsPSIjRTBBOTRDIi8+PC9zdmc+",
+      "options": [
+        "नमस्ते",
+        "अलविदा",
+        "माफ़ करें"
+      ],
+      "correct_answer": "नमस्ते"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 209,
+    "fields": {
+      "lesson": 5,
+      "language": "hi",
+      "order": 2,
+      "question_text": "कुछ माँगते समय विनम्रता से कौन सा शब्द कहते हैं?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PGVsbGlwc2UgY3g9IjEwMCIgY3k9IjkwIiByeD0iNjAiIHJ5PSI0MCIgZmlsbD0iI0UwQTk0QyIvPjxwYXRoIGQ9Ik04NSAxMjUgTDc1IDE0NSBMMTAwIDEyNSBaIiBmaWxsPSIjRTBBOTRDIi8+PC9zdmc+",
+      "options": [
+        "कृपया",
+        "अभी",
+        "मेरा"
+      ],
+      "correct_answer": "कृपया"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 29,
+    "fields": {
+      "lesson": 6,
+      "language": "hi",
+      "body": "आपके आस-पास की चीज़ों के नाम होते हैं: मेज़, कुर्सी, दरवाज़ा, खिड़की।",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 210,
+    "fields": {
+      "lesson": 6,
+      "language": "hi",
+      "order": 1,
+      "question_text": "जिस चीज़ पर हम बैठते हैं उसे क्या कहते हैं?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iNjAiIHk9IjcwIiB3aWR0aD0iODAiIGhlaWdodD0iMTAiIGZpbGw9IiM2RTg1QjciLz48cmVjdCB4PSI2NSIgeT0iODAiIHdpZHRoPSIxMCIgaGVpZ2h0PSI2MCIgZmlsbD0iIzZFODVCNyIvPjxyZWN0IHg9IjEyNSIgeT0iODAiIHdpZHRoPSIxMCIgaGVpZ2h0PSI2MCIgZmlsbD0iIzZFODVCNyIvPjxyZWN0IHg9IjYwIiB5PSI1NSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjMwIiBmaWxsPSIjNkU4NUI3Ii8+PC9zdmc+",
+      "options": [
+        "मेज़",
+        "कुर्सी",
+        "दरवाज़ा"
+      ],
+      "correct_answer": "कुर्सी"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 211,
+    "fields": {
+      "lesson": 6,
+      "language": "hi",
+      "order": 2,
+      "question_text": "जिस खुले रास्ते से हम अंदर जाते हैं उसे क्या कहते हैं?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iNzAiIHk9IjQwIiB3aWR0aD0iNjAiIGhlaWdodD0iMTIwIiByeD0iNCIgZmlsbD0iI0MxNDgzRCIvPjxjaXJjbGUgY3g9IjExOCIgY3k9IjEwMCIgcj0iNCIgZmlsbD0iI0ZCRjhGMSIvPjwvc3ZnPg==",
+      "options": [
+        "खिड़की",
+        "दरवाज़ा",
+        "मेज़"
+      ],
+      "correct_answer": "दरवाज़ा"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 30,
+    "fields": {
+      "lesson": 7,
+      "language": "hi",
+      "body": "रंग हमें दुनिया का वर्णन करने में मदद करते हैं: लाल, नीला, हरा, पीला।",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 212,
+    "fields": {
+      "lesson": 7,
+      "language": "hi",
+      "order": 1,
+      "question_text": "यह कौन सा रंग है?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjM0I1OTk4Ii8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGQkY4RjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiPuCkqOClgOCksuCkvjwvdGV4dD48L3N2Zz4=",
+      "options": [
+        "लाल",
+        "नीला",
+        "हरा"
+      ],
+      "correct_answer": "नीला"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 213,
+    "fields": {
+      "lesson": 7,
+      "language": "hi",
+      "order": 2,
+      "question_text": "यह कौन सा रंग है?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjQzE0ODNEIi8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iNDgiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGQkY4RjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiPuCksuCkvuCksjwvdGV4dD48L3N2Zz4=",
+      "options": [
+        "पीला",
+        "लाल",
+        "बैंगनी"
+      ],
+      "correct_answer": "लाल"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 31,
+    "fields": {
+      "lesson": 8,
+      "language": "hi",
+      "body": "संख्याएँ हमें चीज़ें गिनने में मदद करती हैं: एक, दो, तीन, दस तक।",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 214,
+    "fields": {
+      "lesson": 8,
+      "language": "hi",
+      "order": 1,
+      "question_text": "यह कौन सी संख्या है?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRTBBOTRDIi8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iOTAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMyMzIzMjMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPjU8L3RleHQ+PC9zdmc+",
+      "options": [
+        "3",
+        "5",
+        "7"
+      ],
+      "correct_answer": "5"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 215,
+    "fields": {
+      "lesson": 8,
+      "language": "hi",
+      "order": 2,
+      "question_text": "7 के बाद कौन सी संख्या आती है?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRTBBOTRDIi8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iOTAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMyMzIzMjMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPjc8L3RleHQ+PC9zdmc+",
+      "options": [
+        "6",
+        "8",
+        "9"
+      ],
+      "correct_answer": "8"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 32,
+    "fields": {
+      "lesson": 9,
+      "language": "hi",
+      "body": "एक मजबूत शब्दावली आपको स्पष्ट रूप से खुद को व्यक्त करने में मदद करती है।",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 216,
+    "fields": {
+      "lesson": 9,
+      "language": "hi",
+      "order": 1,
+      "question_text": "'बहुत खुश' के लिए कौन सा शब्द है?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iNTAiIHk9IjYwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjgwIiByeD0iNiIgZmlsbD0iIzRGODU2NiIvPjxsaW5lIHgxPSIxMDAiIHkxPSI2MCIgeDI9IjEwMCIgeTI9IjE0MCIgc3Ryb2tlPSIjRkJGOEYxIiBzdHJva2Utd2lkdGg9IjMiLz48L3N2Zz4=",
+      "options": [
+        "प्रसन्न",
+        "थका हुआ",
+        "गुस्सा"
+      ],
+      "correct_answer": "प्रसन्न"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 217,
+    "fields": {
+      "lesson": 9,
+      "language": "hi",
+      "order": 2,
+      "question_text": "'ध्यान से देखना' के लिए कौन सा शब्द है?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iNTAiIHk9IjYwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjgwIiByeD0iNiIgZmlsbD0iIzRGODU2NiIvPjxsaW5lIHgxPSIxMDAiIHkxPSI2MCIgeDI9IjEwMCIgeTI9IjE0MCIgc3Ryb2tlPSIjRkJGOEYxIiBzdHJva2Utd2lkdGg9IjMiLz48L3N2Zz4=",
+      "options": [
+        "निरीक्षण करना",
+        "अनदेखा करना",
+        "भूल जाना"
+      ],
+      "correct_answer": "निरीक्षण करना"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 33,
+    "fields": {
+      "lesson": 10,
+      "language": "hi",
+      "body": "समानार्थी शब्द एक ही अर्थ रखते हैं, जैसे 'खुश' और 'प्रसन्न'। विलोम शब्द विपरीत अर्थ रखते हैं, जैसे 'गर्म' और 'ठंडा'।",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 218,
+    "fields": {
+      "lesson": 10,
+      "language": "hi",
+      "order": 1,
+      "question_text": "'बड़ा' का समानार्थी शब्द कौन सा है?",
+      "image_url": "",
+      "options": [
+        "विशाल",
+        "छोटा",
+        "तेज़"
+      ],
+      "correct_answer": "विशाल"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 219,
+    "fields": {
+      "lesson": 10,
+      "language": "hi",
+      "order": 2,
+      "question_text": "'गर्म' का विलोम शब्द कौन सा है?",
+      "image_url": "",
+      "options": [
+        "गुनगुना",
+        "ठंडा",
+        "चमकीला"
+      ],
+      "correct_answer": "ठंडा"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 34,
+    "fields": {
+      "lesson": 11,
+      "language": "hi",
+      "body": "मुहावरा एक ऐसा वाक्यांश है जिसका अर्थ उसके शाब्दिक शब्दों से अलग होता है, जैसे 'बर्फ तोड़ना'।",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 220,
+    "fields": {
+      "lesson": 11,
+      "language": "hi",
+      "order": 1,
+      "question_text": "'बर्फ तोड़ना' का क्या अर्थ है?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PGVsbGlwc2UgY3g9IjEwMCIgY3k9IjkwIiByeD0iNjAiIHJ5PSI0MCIgZmlsbD0iI0UwQTk0QyIvPjxwYXRoIGQ9Ik04NSAxMjUgTDc1IDE0NSBMMTAwIDEyNSBaIiBmaWxsPSIjRTBBOTRDIi8+PC9zdmc+",
+      "options": [
+        "बातचीत शुरू करना",
+        "कुछ नुकसान पहुँचाना",
+        "ठंडा होना"
+      ],
+      "correct_answer": "बातचीत शुरू करना"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 221,
+    "fields": {
+      "lesson": 11,
+      "language": "hi",
+      "order": 2,
+      "question_text": "'बच्चों का खेल' का क्या अर्थ है?",
+      "image_url": "",
+      "options": [
+        "बहुत आसान",
+        "एक मिठाई",
+        "बहुत कठिन"
+      ],
+      "correct_answer": "बहुत आसान"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 35,
+    "fields": {
+      "lesson": 12,
+      "language": "hi",
+      "body": "संज्ञा किसी व्यक्ति, स्थान या चीज़ का नाम बताती है। क्रिया किसी क्रिया का वर्णन करती है।",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 222,
+    "fields": {
+      "lesson": 12,
+      "language": "hi",
+      "order": 1,
+      "question_text": "'कुत्ता दौड़ता है' में कौन सा शब्द संज्ञा है?",
+      "image_url": "",
+      "options": [
+        "कुत्ता",
+        "दौड़ता है",
+        "है"
+      ],
+      "correct_answer": "कुत्ता"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 223,
+    "fields": {
+      "lesson": 12,
+      "language": "hi",
+      "order": 2,
+      "question_text": "'वह ज़ोर से गाती है' में कौन सा शब्द क्रिया है?",
+      "image_url": "",
+      "options": [
+        "वह",
+        "गाती है",
+        "ज़ोर से"
+      ],
+      "correct_answer": "गाती है"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 36,
+    "fields": {
+      "lesson": 13,
+      "language": "hi",
+      "body": "भूतकाल पहले ही हो चुकी बात बताता है। वर्तमान काल अभी हो रहा है। भविष्य काल अभी नहीं हुआ है।",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 224,
+    "fields": {
+      "lesson": 13,
+      "language": "hi",
+      "order": 1,
+      "question_text": "कौन सा वाक्य भूतकाल में है?",
+      "image_url": "",
+      "options": [
+        "मैं चलता हूँ",
+        "मैं चला",
+        "मैं चलूँगा"
+      ],
+      "correct_answer": "मैं चला"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 225,
+    "fields": {
+      "lesson": 13,
+      "language": "hi",
+      "order": 2,
+      "question_text": "कौन सा वाक्य भविष्य काल में है?",
+      "image_url": "",
+      "options": [
+        "मैं चलूँगा",
+        "मैं चला",
+        "मैं चलता हूँ"
+      ],
+      "correct_answer": "मैं चलूँगा"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 37,
+    "fields": {
+      "lesson": 14,
+      "language": "hi",
+      "body": "विशेषण संज्ञा का वर्णन करता है, जैसे 'लंबा', 'लाल', या 'खुश'।",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 226,
+    "fields": {
+      "lesson": 14,
+      "language": "hi",
+      "order": 1,
+      "question_text": "'लंबा पेड़' में कौन सा शब्द विशेषण है?",
+      "image_url": "",
+      "options": [
+        "लंबा",
+        "पेड़",
+        "वह"
+      ],
+      "correct_answer": "लंबा"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 227,
+    "fields": {
+      "lesson": 14,
+      "language": "hi",
+      "order": 2,
+      "question_text": "नींबू का वर्णन करने के लिए कौन सा शब्द सबसे अच्छा है?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRTBBOTRDIi8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iOTAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMyMzIzMjMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPj88L3RleHQ+PC9zdmc+",
+      "options": [
+        "खट्टा",
+        "शांत",
+        "तेज़"
+      ],
+      "correct_answer": "खट्टा"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 38,
+    "fields": {
+      "lesson": 15,
+      "language": "hi",
+      "body": "एक साधारण वाक्य में एक कर्ता और एक क्रिया होती है, जैसे 'वह पढ़ती है।'",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 228,
+    "fields": {
+      "lesson": 15,
+      "language": "hi",
+      "order": 1,
+      "question_text": "कौन सा एक पूरा वाक्य है?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iNTAiIHk9IjYwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjgwIiByeD0iNiIgZmlsbD0iIzRGODU2NiIvPjxsaW5lIHgxPSIxMDAiIHkxPSI2MCIgeDI9IjEwMCIgeTI9IjE0MCIgc3Ryb2tlPSIjRkJGOEYxIiBzdHJva2Utd2lkdGg9IjMiLz48L3N2Zz4=",
+      "options": [
+        "वह पढ़ती है",
+        "पढ़ना किताब वह",
+        "किताब वह"
+      ],
+      "correct_answer": "वह पढ़ती है"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 229,
+    "fields": {
+      "lesson": 15,
+      "language": "hi",
+      "order": 2,
+      "question_text": "कौन सा एक पूरा वाक्य है?",
+      "image_url": "",
+      "options": [
+        "तेज़ दौड़ना",
+        "कुत्ता दौड़ता है",
+        "कुत्ता वह"
+      ],
+      "correct_answer": "कुत्ता दौड़ता है"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 39,
+    "fields": {
+      "lesson": 16,
+      "language": "hi",
+      "body": "'और', 'लेकिन', और 'क्योंकि' जैसे संयोजक दो वाक्यों को एक में जोड़ते हैं।",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 230,
+    "fields": {
+      "lesson": 16,
+      "language": "hi",
+      "order": 1,
+      "question_text": "'मैं थका था' और 'मैं जल्दी सो गया' को कौन सा शब्द जोड़ता है?",
+      "image_url": "",
+      "options": [
+        "क्योंकि",
+        "या",
+        "नहीं"
+      ],
+      "correct_answer": "क्योंकि"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 231,
+    "fields": {
+      "lesson": 16,
+      "language": "hi",
+      "order": 2,
+      "question_text": "'इसके विपरीत' के लिए कौन सा शब्द है?",
+      "image_url": "",
+      "options": [
+        "और",
+        "लेकिन",
+        "इसलिए"
+      ],
+      "correct_answer": "लेकिन"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 40,
+    "fields": {
+      "lesson": 17,
+      "language": "hi",
+      "body": "प्रश्न अक्सर 'क्या', 'कहाँ', 'क्यों', या 'कैसे' जैसे शब्दों से शुरू होते हैं।",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 232,
+    "fields": {
+      "lesson": 17,
+      "language": "hi",
+      "order": 1,
+      "question_text": "किसी जगह के बारे में पूछने के लिए कौन सा शब्द उपयोग करेंगे?",
+      "image_url": "",
+      "options": [
+        "कहाँ",
+        "क्यों",
+        "कौन"
+      ],
+      "correct_answer": "कहाँ"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 233,
+    "fields": {
+      "lesson": 17,
+      "language": "hi",
+      "order": 2,
+      "question_text": "किसी कारण के बारे में पूछने के लिए कौन सा शब्द उपयोग करेंगे?",
+      "image_url": "",
+      "options": [
+        "क्या",
+        "क्यों",
+        "कब"
+      ],
+      "correct_answer": "क्यों"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 41,
+    "fields": {
+      "lesson": 18,
+      "language": "hi",
+      "body": "एक अनुच्छेद में एक मुख्य विचार होता है, जिसे कुछ वाक्यों द्वारा समर्थित किया जाता है।",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 234,
+    "fields": {
+      "lesson": 18,
+      "language": "hi",
+      "order": 1,
+      "question_text": "एक अनुच्छेद में क्या होना चाहिए?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iNTAiIHk9IjYwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjgwIiByeD0iNiIgZmlsbD0iIzRGODU2NiIvPjxsaW5lIHgxPSIxMDAiIHkxPSI2MCIgeDI9IjEwMCIgeTI9IjE0MCIgc3Ryb2tlPSIjRkJGOEYxIiBzdHJva2Utd2lkdGg9IjMiLz48L3N2Zz4=",
+      "options": [
+        "एक मुख्य विचार",
+        "कोई संरचना नहीं",
+        "अनियमित तथ्य"
+      ],
+      "correct_answer": "एक मुख्य विचार"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 235,
+    "fields": {
+      "lesson": 18,
+      "language": "hi",
+      "order": 2,
+      "question_text": "अनुच्छेद के पहले वाक्य को आमतौर पर क्या कहते हैं?",
+      "image_url": "",
+      "options": [
+        "विषय वाक्य",
+        "अंतिम वाक्य",
+        "अनियमित वाक्य"
+      ],
+      "correct_answer": "विषय वाक्य"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 42,
+    "fields": {
+      "lesson": 19,
+      "language": "hi",
+      "body": "वर्णनात्मक लेखन संवेदी विवरण का उपयोग करता है - आप जो देखते, सुनते, सूंघते, चखते और छूते हैं।",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 236,
+    "fields": {
+      "lesson": 19,
+      "language": "hi",
+      "order": 1,
+      "question_text": "गंध का वर्णन करने के लिए आप कौन सी इंद्रिय का उपयोग करेंगे?",
+      "image_url": "",
+      "options": [
+        "गंध",
+        "दृष्टि",
+        "ध्वनि"
+      ],
+      "correct_answer": "गंध"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 237,
+    "fields": {
+      "lesson": 19,
+      "language": "hi",
+      "order": 2,
+      "question_text": "कौन सा वाक्य वर्णनात्मक विवरण का उपयोग करता है?",
+      "image_url": "",
+      "options": [
+        "केक मीठा और गरम था",
+        "केक वहाँ था",
+        "एक केक था"
+      ],
+      "correct_answer": "केक मीठा और गरम था"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 43,
+    "fields": {
+      "lesson": 20,
+      "language": "hi",
+      "body": "प्रेरक लेखन पाठक को किसी राय के लिए मनाने के लिए कारण और प्रमाण देता है।",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 238,
+    "fields": {
+      "lesson": 20,
+      "language": "hi",
+      "order": 1,
+      "question_text": "प्रेरक लेखन क्या करने की कोशिश करता है?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PGVsbGlwc2UgY3g9IjEwMCIgY3k9IjkwIiByeD0iNjAiIHJ5PSI0MCIgZmlsbD0iI0UwQTk0QyIvPjxwYXRoIGQ9Ik04NSAxMjUgTDc1IDE0NSBMMTAwIDEyNSBaIiBmaWxsPSIjRTBBOTRDIi8+PC9zdmc+",
+      "options": [
+        "पाठक को मनाना",
+        "पाठक को भ्रमित करना",
+        "एक दृश्य का वर्णन करना"
+      ],
+      "correct_answer": "पाठक को मनाना"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 239,
+    "fields": {
+      "lesson": 20,
+      "language": "hi",
+      "order": 2,
+      "question_text": "कौन सा एक प्रेरक वाक्य है?",
+      "image_url": "",
+      "options": [
+        "आपको धरती की मदद के लिए रीसायकल करना चाहिए",
+        "आसमान नीला है",
+        "कल बारिश हुई"
+      ],
+      "correct_answer": "आपको धरती की मदद के लिए रीसायकल करना चाहिए"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 44,
+    "fields": {
+      "lesson": 21,
+      "language": "hi",
+      "body": "अर्थ के लिए पढ़ने का मतलब है यह समझना कि लेखक वास्तव में क्या कह रहा है, सिर्फ शब्द नहीं।",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 240,
+    "fields": {
+      "lesson": 21,
+      "language": "hi",
+      "order": 1,
+      "question_text": "'अर्थ के लिए पढ़ना' किस पर केंद्रित है?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iNTAiIHk9IjYwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjgwIiByeD0iNiIgZmlsbD0iIzRGODU2NiIvPjxsaW5lIHgxPSIxMDAiIHkxPSI2MCIgeDI9IjEwMCIgeTI9IjE0MCIgc3Ryb2tlPSIjRkJGOEYxIiBzdHJva2Utd2lkdGg9IjMiLz48L3N2Zz4=",
+      "options": [
+        "संदेश को समझना",
+        "शब्द गिनना",
+        "तेज़ पढ़ना"
+      ],
+      "correct_answer": "संदेश को समझना"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 241,
+    "fields": {
+      "lesson": 21,
+      "language": "hi",
+      "order": 2,
+      "question_text": "किसी अनुच्छेद में आपको क्या देखना चाहिए?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iNTAiIHk9IjYwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjgwIiByeD0iNiIgZmlsbD0iIzRGODU2NiIvPjxsaW5lIHgxPSIxMDAiIHkxPSI2MCIgeDI9IjEwMCIgeTI9IjE0MCIgc3Ryb2tlPSIjRkJGOEYxIiBzdHJva2Utd2lkdGg9IjMiLz48L3N2Zz4=",
+      "options": [
+        "मुख्य विचार",
+        "सबसे लंबा शब्द",
+        "अंतिम अक्षर"
+      ],
+      "correct_answer": "मुख्य विचार"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 45,
+    "fields": {
+      "lesson": 22,
+      "language": "hi",
+      "body": "अनुमान लगाने का मतलब है पाठ में संकेतों का उपयोग करके यह पता लगाना कि लेखक ने सीधे क्या नहीं कहा।",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 242,
+    "fields": {
+      "lesson": 22,
+      "language": "hi",
+      "order": 1,
+      "question_text": "एक अनुमान किस पर आधारित होता है?",
+      "image_url": "",
+      "options": [
+        "पाठ में संकेत",
+        "यादृच्छिक अनुमान",
+        "केवल शीर्षक"
+      ],
+      "correct_answer": "पाठ में संकेत"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 243,
+    "fields": {
+      "lesson": 22,
+      "language": "hi",
+      "order": 2,
+      "question_text": "अगर कोई पात्र मुस्कुरा रहा है और हँस रहा है, तो वह शायद कैसा महसूस कर रहा है?",
+      "image_url": "",
+      "options": [
+        "खुश",
+        "उदास",
+        "गुस्सा"
+      ],
+      "correct_answer": "खुश"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 46,
+    "fields": {
+      "lesson": 23,
+      "language": "hi",
+      "body": "एक सारांश किसी पाठ के सबसे महत्वपूर्ण भागों को आपके अपने शब्दों में, संक्षेप में दोहराता है।",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 244,
+    "fields": {
+      "lesson": 23,
+      "language": "hi",
+      "order": 1,
+      "question_text": "एक अच्छा सारांश कैसा होना चाहिए...?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iNTAiIHk9IjYwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjgwIiByeD0iNiIgZmlsbD0iIzRGODU2NiIvPjxsaW5lIHgxPSIxMDAiIHkxPSI2MCIgeDI9IjEwMCIgeTI9IjE0MCIgc3Ryb2tlPSIjRkJGOEYxIiBzdHJva2Utd2lkdGg9IjMiLz48L3N2Zz4=",
+      "options": [
+        "छोटा और स्पष्ट",
+        "मूल जितना लंबा",
+        "नई राय से भरा"
+      ],
+      "correct_answer": "छोटा और स्पष्ट"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 245,
+    "fields": {
+      "lesson": 23,
+      "language": "hi",
+      "order": 2,
+      "question_text": "सारांश किसके शब्दों में लिखा जाना चाहिए?",
+      "image_url": "",
+      "options": [
+        "अपने खुद के शब्दों में",
+        "लेखक के सटीक शब्दों में",
+        "यादृच्छिक शब्दों में"
+      ],
+      "correct_answer": "अपने खुद के शब्दों में"
+    }
+  }
+]

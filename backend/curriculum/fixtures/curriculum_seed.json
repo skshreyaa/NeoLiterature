@@ -1,0 +1,1354 @@
+[
+  {
+    "model": "curriculum.level",
+    "pk": 1,
+    "fields": {
+      "name": "beginner",
+      "order": 1
+    }
+  },
+  {
+    "model": "curriculum.level",
+    "pk": 2,
+    "fields": {
+      "name": "intermediate",
+      "order": 2
+    }
+  },
+  {
+    "model": "curriculum.level",
+    "pk": 3,
+    "fields": {
+      "name": "advanced",
+      "order": 3
+    }
+  },
+  {
+    "model": "curriculum.category",
+    "pk": 1,
+    "fields": {
+      "level": 1,
+      "name": "Alphabet",
+      "order": 1
+    }
+  },
+  {
+    "model": "curriculum.category",
+    "pk": 2,
+    "fields": {
+      "level": 1,
+      "name": "Basic Words",
+      "order": 2
+    }
+  },
+  {
+    "model": "curriculum.category",
+    "pk": 3,
+    "fields": {
+      "level": 2,
+      "name": "Vocabulary",
+      "order": 1
+    }
+  },
+  {
+    "model": "curriculum.category",
+    "pk": 4,
+    "fields": {
+      "level": 2,
+      "name": "Grammar Basics",
+      "order": 2
+    }
+  },
+  {
+    "model": "curriculum.category",
+    "pk": 5,
+    "fields": {
+      "level": 2,
+      "name": "Sentence Formation",
+      "order": 3
+    }
+  },
+  {
+    "model": "curriculum.category",
+    "pk": 6,
+    "fields": {
+      "level": 3,
+      "name": "Paragraph Writing",
+      "order": 1
+    }
+  },
+  {
+    "model": "curriculum.category",
+    "pk": 7,
+    "fields": {
+      "level": 3,
+      "name": "Reading Comprehension",
+      "order": 2
+    }
+  },
+  {
+    "model": "curriculum.lesson",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "title": "Learning the Alphabet",
+      "description": "Introduces all letters with sounds.",
+      "order": 1,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 1,
+    "fields": {
+      "lesson": 1,
+      "language": "en",
+      "body": "The alphabet has 26 letters, from A to Z. Each letter has its own sound.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 1,
+    "fields": {
+      "lesson": 1,
+      "language": "en",
+      "order": 1,
+      "question_text": "Which letter comes right after A?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjNkU4NUI3Ii8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iOTAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGQkY4RjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkE8L3RleHQ+PC9zdmc+",
+      "options": [
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "B"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 2,
+    "fields": {
+      "lesson": 1,
+      "language": "en",
+      "order": 2,
+      "question_text": "Which letter comes right before Z?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjNkU4NUI3Ii8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iOTAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGQkY4RjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlo8L3RleHQ+PC9zdmc+",
+      "options": [
+        "W",
+        "X",
+        "Y"
+      ],
+      "correct_answer": "Y"
+    }
+  },
+  {
+    "model": "curriculum.lesson",
+    "pk": 2,
+    "fields": {
+      "category": 1,
+      "title": "Vowels and Consonants",
+      "description": "Distinguishing vowels from consonants.",
+      "order": 2,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 2,
+    "fields": {
+      "lesson": 2,
+      "language": "en",
+      "body": "Vowels are A, E, I, O, U. All other letters are consonants.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 3,
+    "fields": {
+      "lesson": 2,
+      "language": "en",
+      "order": 1,
+      "question_text": "Which of these is a vowel?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjNEY4NTY2Ii8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iOTAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGQkY4RjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkU8L3RleHQ+PC9zdmc+",
+      "options": [
+        "B",
+        "E",
+        "K"
+      ],
+      "correct_answer": "E"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 4,
+    "fields": {
+      "lesson": 2,
+      "language": "en",
+      "order": 2,
+      "question_text": "Which of these is a consonant?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjQzE0ODNEIi8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iOTAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGQkY4RjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlQ8L3RleHQ+PC9zdmc+",
+      "options": [
+        "A",
+        "O",
+        "T"
+      ],
+      "correct_answer": "T"
+    }
+  },
+  {
+    "model": "curriculum.lesson",
+    "pk": 3,
+    "fields": {
+      "category": 1,
+      "title": "Uppercase and Lowercase",
+      "description": "Recognizing capital and small letters.",
+      "order": 3,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 3,
+    "fields": {
+      "lesson": 3,
+      "language": "en",
+      "body": "Every letter has an uppercase (capital) form and a lowercase (small) form, like A and a.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 5,
+    "fields": {
+      "lesson": 3,
+      "language": "en",
+      "order": 1,
+      "question_text": "What is the lowercase form of 'A'?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjNkU4NUI3Ii8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iOTAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGQkY4RjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkE8L3RleHQ+PC9zdmc+",
+      "options": [
+        "a",
+        "b",
+        "e"
+      ],
+      "correct_answer": "a"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 6,
+    "fields": {
+      "lesson": 3,
+      "language": "en",
+      "order": 2,
+      "question_text": "What is the uppercase form of 'm'?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjNEY4NTY2Ii8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iMTAwIiBmb250LWZhbWlseT0iR2VvcmdpYSwgc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjRkJGOEYxIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5tPC90ZXh0Pjwvc3ZnPg==",
+      "options": [
+        "N",
+        "M",
+        "W"
+      ],
+      "correct_answer": "M"
+    }
+  },
+  {
+    "model": "curriculum.lesson",
+    "pk": 4,
+    "fields": {
+      "category": 1,
+      "title": "Letter Sounds",
+      "description": "Connecting letters to the sounds they make.",
+      "order": 4,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 4,
+    "fields": {
+      "lesson": 4,
+      "language": "en",
+      "body": "Each letter makes a sound when we say it. Practicing letter sounds helps with reading.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 7,
+    "fields": {
+      "lesson": 4,
+      "language": "en",
+      "order": 1,
+      "question_text": "Which letter makes a 'buh' sound?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRTBBOTRDIi8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iOTAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMyMzIzMjMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkI8L3RleHQ+PC9zdmc+",
+      "options": [
+        "B",
+        "S",
+        "M"
+      ],
+      "correct_answer": "B"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 8,
+    "fields": {
+      "lesson": 4,
+      "language": "en",
+      "order": 2,
+      "question_text": "Which letter makes a 'sss' sound?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRTBBOTRDIi8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iOTAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMyMzIzMjMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlM8L3RleHQ+PC9zdmc+",
+      "options": [
+        "S",
+        "D",
+        "R"
+      ],
+      "correct_answer": "S"
+    }
+  },
+  {
+    "model": "curriculum.lesson",
+    "pk": 5,
+    "fields": {
+      "category": 2,
+      "title": "Everyday Words",
+      "description": "Common words used daily.",
+      "order": 5,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 5,
+    "fields": {
+      "lesson": 5,
+      "language": "en",
+      "body": "Words like 'hello', 'thank you', and 'please' are used every day.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 9,
+    "fields": {
+      "lesson": 5,
+      "language": "en",
+      "order": 1,
+      "question_text": "Which word do you say when you meet someone?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PGVsbGlwc2UgY3g9IjEwMCIgY3k9IjkwIiByeD0iNjAiIHJ5PSI0MCIgZmlsbD0iI0UwQTk0QyIvPjxwYXRoIGQ9Ik04NSAxMjUgTDc1IDE0NSBMMTAwIDEyNSBaIiBmaWxsPSIjRTBBOTRDIi8+PC9zdmc+",
+      "options": [
+        "Hello",
+        "Goodbye",
+        "Sorry"
+      ],
+      "correct_answer": "Hello"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 10,
+    "fields": {
+      "lesson": 5,
+      "language": "en",
+      "order": 2,
+      "question_text": "Which word do you say to be polite when asking for something?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PGVsbGlwc2UgY3g9IjEwMCIgY3k9IjkwIiByeD0iNjAiIHJ5PSI0MCIgZmlsbD0iI0UwQTk0QyIvPjxwYXRoIGQ9Ik04NSAxMjUgTDc1IDE0NSBMMTAwIDEyNSBaIiBmaWxsPSIjRTBBOTRDIi8+PC9zdmc+",
+      "options": [
+        "Please",
+        "Now",
+        "Mine"
+      ],
+      "correct_answer": "Please"
+    }
+  },
+  {
+    "model": "curriculum.lesson",
+    "pk": 6,
+    "fields": {
+      "category": 2,
+      "title": "Naming Objects",
+      "description": "Words for everyday objects around you.",
+      "order": 6,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 6,
+    "fields": {
+      "lesson": 6,
+      "language": "en",
+      "body": "Objects around you have names: table, chair, door, window.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 11,
+    "fields": {
+      "lesson": 6,
+      "language": "en",
+      "order": 1,
+      "question_text": "What do we call the thing we sit on?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iNjAiIHk9IjcwIiB3aWR0aD0iODAiIGhlaWdodD0iMTAiIGZpbGw9IiM2RTg1QjciLz48cmVjdCB4PSI2NSIgeT0iODAiIHdpZHRoPSIxMCIgaGVpZ2h0PSI2MCIgZmlsbD0iIzZFODVCNyIvPjxyZWN0IHg9IjEyNSIgeT0iODAiIHdpZHRoPSIxMCIgaGVpZ2h0PSI2MCIgZmlsbD0iIzZFODVCNyIvPjxyZWN0IHg9IjYwIiB5PSI1NSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjMwIiBmaWxsPSIjNkU4NUI3Ii8+PC9zdmc+",
+      "options": [
+        "Table",
+        "Chair",
+        "Door"
+      ],
+      "correct_answer": "Chair"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 12,
+    "fields": {
+      "lesson": 6,
+      "language": "en",
+      "order": 2,
+      "question_text": "What do we call the opening we walk through?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iNzAiIHk9IjQwIiB3aWR0aD0iNjAiIGhlaWdodD0iMTIwIiByeD0iNCIgZmlsbD0iI0MxNDgzRCIvPjxjaXJjbGUgY3g9IjExOCIgY3k9IjEwMCIgcj0iNCIgZmlsbD0iI0ZCRjhGMSIvPjwvc3ZnPg==",
+      "options": [
+        "Window",
+        "Door",
+        "Table"
+      ],
+      "correct_answer": "Door"
+    }
+  },
+  {
+    "model": "curriculum.lesson",
+    "pk": 7,
+    "fields": {
+      "category": 2,
+      "title": "Colors",
+      "description": "Learning the names of common colors.",
+      "order": 7,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 7,
+    "fields": {
+      "lesson": 7,
+      "language": "en",
+      "body": "Colors help us describe the world around us: red, blue, green, and yellow.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 13,
+    "fields": {
+      "lesson": 7,
+      "language": "en",
+      "order": 1,
+      "question_text": "What color is this?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjM0I1OTk4Ii8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iNDAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGQkY4RjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkJMVUU8L3RleHQ+PC9zdmc+",
+      "options": [
+        "Red",
+        "Blue",
+        "Green"
+      ],
+      "correct_answer": "Blue"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 14,
+    "fields": {
+      "lesson": 7,
+      "language": "en",
+      "order": 2,
+      "question_text": "What color is this?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjQzE0ODNEIi8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iNDgiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGQkY4RjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlJFRDwvdGV4dD48L3N2Zz4=",
+      "options": [
+        "Yellow",
+        "Red",
+        "Purple"
+      ],
+      "correct_answer": "Red"
+    }
+  },
+  {
+    "model": "curriculum.lesson",
+    "pk": 8,
+    "fields": {
+      "category": 2,
+      "title": "Numbers 1 to 10",
+      "description": "Counting and recognizing numbers.",
+      "order": 8,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 8,
+    "fields": {
+      "lesson": 8,
+      "language": "en",
+      "body": "Numbers help us count things: one, two, three, up to ten.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 15,
+    "fields": {
+      "lesson": 8,
+      "language": "en",
+      "order": 1,
+      "question_text": "What number is this?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRTBBOTRDIi8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iOTAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMyMzIzMjMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPjU8L3RleHQ+PC9zdmc+",
+      "options": [
+        "3",
+        "5",
+        "7"
+      ],
+      "correct_answer": "5"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 16,
+    "fields": {
+      "lesson": 8,
+      "language": "en",
+      "order": 2,
+      "question_text": "What number comes after 7?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRTBBOTRDIi8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iOTAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMyMzIzMjMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPjc8L3RleHQ+PC9zdmc+",
+      "options": [
+        "6",
+        "8",
+        "9"
+      ],
+      "correct_answer": "8"
+    }
+  },
+  {
+    "model": "curriculum.lesson",
+    "pk": 9,
+    "fields": {
+      "category": 3,
+      "title": "Building Your Vocabulary",
+      "description": "Learning new words through context.",
+      "order": 9,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 9,
+    "fields": {
+      "lesson": 9,
+      "language": "en",
+      "body": "A strong vocabulary helps you express yourself clearly.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 17,
+    "fields": {
+      "lesson": 9,
+      "language": "en",
+      "order": 1,
+      "question_text": "Which word means 'very happy'?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iNTAiIHk9IjYwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjgwIiByeD0iNiIgZmlsbD0iIzRGODU2NiIvPjxsaW5lIHgxPSIxMDAiIHkxPSI2MCIgeDI9IjEwMCIgeTI9IjE0MCIgc3Ryb2tlPSIjRkJGOEYxIiBzdHJva2Utd2lkdGg9IjMiLz48L3N2Zz4=",
+      "options": [
+        "Joyful",
+        "Tired",
+        "Angry"
+      ],
+      "correct_answer": "Joyful"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 18,
+    "fields": {
+      "lesson": 9,
+      "language": "en",
+      "order": 2,
+      "question_text": "Which word means 'to look at carefully'?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iNTAiIHk9IjYwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjgwIiByeD0iNiIgZmlsbD0iIzRGODU2NiIvPjxsaW5lIHgxPSIxMDAiIHkxPSI2MCIgeDI9IjEwMCIgeTI9IjE0MCIgc3Ryb2tlPSIjRkJGOEYxIiBzdHJva2Utd2lkdGg9IjMiLz48L3N2Zz4=",
+      "options": [
+        "Observe",
+        "Ignore",
+        "Forget"
+      ],
+      "correct_answer": "Observe"
+    }
+  },
+  {
+    "model": "curriculum.lesson",
+    "pk": 10,
+    "fields": {
+      "category": 3,
+      "title": "Synonyms and Antonyms",
+      "description": "Words with similar and opposite meanings.",
+      "order": 10,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 10,
+    "fields": {
+      "lesson": 10,
+      "language": "en",
+      "body": "Synonyms mean the same thing, like 'happy' and 'glad'. Antonyms mean the opposite.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 19,
+    "fields": {
+      "lesson": 10,
+      "language": "en",
+      "order": 1,
+      "question_text": "Which word is a synonym for 'big'?",
+      "image_url": "",
+      "options": [
+        "Large",
+        "Small",
+        "Fast"
+      ],
+      "correct_answer": "Large"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 20,
+    "fields": {
+      "lesson": 10,
+      "language": "en",
+      "order": 2,
+      "question_text": "Which word is an antonym for 'hot'?",
+      "image_url": "",
+      "options": [
+        "Warm",
+        "Cold",
+        "Bright"
+      ],
+      "correct_answer": "Cold"
+    }
+  },
+  {
+    "model": "curriculum.lesson",
+    "pk": 11,
+    "fields": {
+      "category": 3,
+      "title": "Common Idioms",
+      "description": "Everyday expressions that aren't literal.",
+      "order": 11,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 11,
+    "fields": {
+      "lesson": 11,
+      "language": "en",
+      "body": "An idiom is a phrase that means something different from its literal words, like 'break the ice'.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 21,
+    "fields": {
+      "lesson": 11,
+      "language": "en",
+      "order": 1,
+      "question_text": "What does 'break the ice' mean?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PGVsbGlwc2UgY3g9IjEwMCIgY3k9IjkwIiByeD0iNjAiIHJ5PSI0MCIgZmlsbD0iI0UwQTk0QyIvPjxwYXRoIGQ9Ik04NSAxMjUgTDc1IDE0NSBMMTAwIDEyNSBaIiBmaWxsPSIjRTBBOTRDIi8+PC9zdmc+",
+      "options": [
+        "Start a conversation",
+        "Damage something",
+        "Get cold"
+      ],
+      "correct_answer": "Start a conversation"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 22,
+    "fields": {
+      "lesson": 11,
+      "language": "en",
+      "order": 2,
+      "question_text": "What does 'piece of cake' mean?",
+      "image_url": "",
+      "options": [
+        "Very easy",
+        "A dessert",
+        "Very hard"
+      ],
+      "correct_answer": "Very easy"
+    }
+  },
+  {
+    "model": "curriculum.lesson",
+    "pk": 12,
+    "fields": {
+      "category": 4,
+      "title": "Nouns and Verbs",
+      "description": "Identifying the basic parts of a sentence.",
+      "order": 12,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 12,
+    "fields": {
+      "lesson": 12,
+      "language": "en",
+      "body": "A noun names a person, place, or thing. A verb describes an action.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 23,
+    "fields": {
+      "lesson": 12,
+      "language": "en",
+      "order": 1,
+      "question_text": "Which word is a noun in 'The dog runs'?",
+      "image_url": "",
+      "options": [
+        "Dog",
+        "Runs",
+        "The"
+      ],
+      "correct_answer": "Dog"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 24,
+    "fields": {
+      "lesson": 12,
+      "language": "en",
+      "order": 2,
+      "question_text": "Which word is a verb in 'She sings loudly'?",
+      "image_url": "",
+      "options": [
+        "She",
+        "Sings",
+        "Loudly"
+      ],
+      "correct_answer": "Sings"
+    }
+  },
+  {
+    "model": "curriculum.lesson",
+    "pk": 13,
+    "fields": {
+      "category": 4,
+      "title": "Simple Tenses",
+      "description": "Past, present, and future in simple form.",
+      "order": 13,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 13,
+    "fields": {
+      "lesson": 13,
+      "language": "en",
+      "body": "Past tense already happened. Present tense is happening now. Future tense hasn't happened yet.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 25,
+    "fields": {
+      "lesson": 13,
+      "language": "en",
+      "order": 1,
+      "question_text": "Which sentence is in the past tense?",
+      "image_url": "",
+      "options": [
+        "I walk",
+        "I walked",
+        "I will walk"
+      ],
+      "correct_answer": "I walked"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 26,
+    "fields": {
+      "lesson": 13,
+      "language": "en",
+      "order": 2,
+      "question_text": "Which sentence is in the future tense?",
+      "image_url": "",
+      "options": [
+        "I will walk",
+        "I walked",
+        "I walk"
+      ],
+      "correct_answer": "I will walk"
+    }
+  },
+  {
+    "model": "curriculum.lesson",
+    "pk": 14,
+    "fields": {
+      "category": 4,
+      "title": "Adjectives",
+      "description": "Words that describe nouns.",
+      "order": 14,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 14,
+    "fields": {
+      "lesson": 14,
+      "language": "en",
+      "body": "An adjective describes a noun, like 'tall', 'red', or 'happy'.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 27,
+    "fields": {
+      "lesson": 14,
+      "language": "en",
+      "order": 1,
+      "question_text": "Which word is an adjective in 'the tall tree'?",
+      "image_url": "",
+      "options": [
+        "Tall",
+        "Tree",
+        "The"
+      ],
+      "correct_answer": "Tall"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 28,
+    "fields": {
+      "lesson": 14,
+      "language": "en",
+      "order": 2,
+      "question_text": "Which word best describes a lemon?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRTBBOTRDIi8+PHRleHQgeD0iMTAwIiB5PSIxMzAiIGZvbnQtc2l6ZT0iOTAiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMyMzIzMjMiIHRleHQtYW5jaG9yPSJtaWRkbGUiPj88L3RleHQ+PC9zdmc+",
+      "options": [
+        "Sour",
+        "Quiet",
+        "Fast"
+      ],
+      "correct_answer": "Sour"
+    }
+  },
+  {
+    "model": "curriculum.lesson",
+    "pk": 15,
+    "fields": {
+      "category": 5,
+      "title": "Building Simple Sentences",
+      "description": "Combining words into complete sentences.",
+      "order": 15,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 15,
+    "fields": {
+      "lesson": 15,
+      "language": "en",
+      "body": "A simple sentence has a subject and a verb, like 'She reads.'",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 29,
+    "fields": {
+      "lesson": 15,
+      "language": "en",
+      "order": 1,
+      "question_text": "Which is a complete sentence?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iNTAiIHk9IjYwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjgwIiByeD0iNiIgZmlsbD0iIzRGODU2NiIvPjxsaW5lIHgxPSIxMDAiIHkxPSI2MCIgeDI9IjEwMCIgeTI9IjE0MCIgc3Ryb2tlPSIjRkJGOEYxIiBzdHJva2Utd2lkdGg9IjMiLz48L3N2Zz4=",
+      "options": [
+        "She reads",
+        "Reads book the",
+        "Book she"
+      ],
+      "correct_answer": "She reads"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 30,
+    "fields": {
+      "lesson": 15,
+      "language": "en",
+      "order": 2,
+      "question_text": "Which is a complete sentence?",
+      "image_url": "",
+      "options": [
+        "Running fast",
+        "The dog runs",
+        "Dog the"
+      ],
+      "correct_answer": "The dog runs"
+    }
+  },
+  {
+    "model": "curriculum.lesson",
+    "pk": 16,
+    "fields": {
+      "category": 5,
+      "title": "Joining Sentences",
+      "description": "Using conjunctions to join ideas.",
+      "order": 16,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 16,
+    "fields": {
+      "lesson": 16,
+      "language": "en",
+      "body": "Conjunctions like 'and', 'but', and 'because' join two sentences into one.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 31,
+    "fields": {
+      "lesson": 16,
+      "language": "en",
+      "order": 1,
+      "question_text": "Which word joins 'I was tired' and 'I went to sleep'?",
+      "image_url": "",
+      "options": [
+        "Because",
+        "Or",
+        "Not"
+      ],
+      "correct_answer": "Because"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 32,
+    "fields": {
+      "lesson": 16,
+      "language": "en",
+      "order": 2,
+      "question_text": "Which word means 'in contrast'?",
+      "image_url": "",
+      "options": [
+        "And",
+        "But",
+        "So"
+      ],
+      "correct_answer": "But"
+    }
+  },
+  {
+    "model": "curriculum.lesson",
+    "pk": 17,
+    "fields": {
+      "category": 5,
+      "title": "Question Formation",
+      "description": "Turning statements into questions.",
+      "order": 17,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 17,
+    "fields": {
+      "lesson": 17,
+      "language": "en",
+      "body": "Questions often start with words like 'What', 'Where', 'Why', or 'How'.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 33,
+    "fields": {
+      "lesson": 17,
+      "language": "en",
+      "order": 1,
+      "question_text": "Which word would you use to ask about a place?",
+      "image_url": "",
+      "options": [
+        "Where",
+        "Why",
+        "Who"
+      ],
+      "correct_answer": "Where"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 34,
+    "fields": {
+      "lesson": 17,
+      "language": "en",
+      "order": 2,
+      "question_text": "Which word would you use to ask about a reason?",
+      "image_url": "",
+      "options": [
+        "What",
+        "Why",
+        "When"
+      ],
+      "correct_answer": "Why"
+    }
+  },
+  {
+    "model": "curriculum.lesson",
+    "pk": 18,
+    "fields": {
+      "category": 6,
+      "title": "Writing Your First Paragraph",
+      "description": "Structuring a paragraph with a main idea.",
+      "order": 18,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 18,
+    "fields": {
+      "lesson": 18,
+      "language": "en",
+      "body": "A paragraph has one main idea, supported by a few sentences.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 35,
+    "fields": {
+      "lesson": 18,
+      "language": "en",
+      "order": 1,
+      "question_text": "What should a paragraph have?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iNTAiIHk9IjYwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjgwIiByeD0iNiIgZmlsbD0iIzRGODU2NiIvPjxsaW5lIHgxPSIxMDAiIHkxPSI2MCIgeDI9IjEwMCIgeTI9IjE0MCIgc3Ryb2tlPSIjRkJGOEYxIiBzdHJva2Utd2lkdGg9IjMiLz48L3N2Zz4=",
+      "options": [
+        "One main idea",
+        "No structure",
+        "Random facts"
+      ],
+      "correct_answer": "One main idea"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 36,
+    "fields": {
+      "lesson": 18,
+      "language": "en",
+      "order": 2,
+      "question_text": "What is the first sentence of a paragraph usually called?",
+      "image_url": "",
+      "options": [
+        "Topic sentence",
+        "Ending sentence",
+        "Random sentence"
+      ],
+      "correct_answer": "Topic sentence"
+    }
+  },
+  {
+    "model": "curriculum.lesson",
+    "pk": 19,
+    "fields": {
+      "category": 6,
+      "title": "Descriptive Writing",
+      "description": "Using detail to bring writing to life.",
+      "order": 19,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 19,
+    "fields": {
+      "lesson": 19,
+      "language": "en",
+      "body": "Descriptive writing uses sensory details - what you see, hear, smell, taste, and touch.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 37,
+    "fields": {
+      "lesson": 19,
+      "language": "en",
+      "order": 1,
+      "question_text": "Which sense would you use to describe a smell?",
+      "image_url": "",
+      "options": [
+        "Smell",
+        "Sight",
+        "Sound"
+      ],
+      "correct_answer": "Smell"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 38,
+    "fields": {
+      "lesson": 19,
+      "language": "en",
+      "order": 2,
+      "question_text": "Which sentence uses descriptive detail?",
+      "image_url": "",
+      "options": [
+        "The cake was sweet and warm",
+        "The cake was there",
+        "There was a cake"
+      ],
+      "correct_answer": "The cake was sweet and warm"
+    }
+  },
+  {
+    "model": "curriculum.lesson",
+    "pk": 20,
+    "fields": {
+      "category": 6,
+      "title": "Persuasive Writing",
+      "description": "Convincing the reader of your point of view.",
+      "order": 20,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 20,
+    "fields": {
+      "lesson": 20,
+      "language": "en",
+      "body": "Persuasive writing gives reasons and evidence to convince the reader of an opinion.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 39,
+    "fields": {
+      "lesson": 20,
+      "language": "en",
+      "order": 1,
+      "question_text": "What does persuasive writing try to do?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PGVsbGlwc2UgY3g9IjEwMCIgY3k9IjkwIiByeD0iNjAiIHJ5PSI0MCIgZmlsbD0iI0UwQTk0QyIvPjxwYXRoIGQ9Ik04NSAxMjUgTDc1IDE0NSBMMTAwIDEyNSBaIiBmaWxsPSIjRTBBOTRDIi8+PC9zdmc+",
+      "options": [
+        "Convince the reader",
+        "Confuse the reader",
+        "Describe a scene"
+      ],
+      "correct_answer": "Convince the reader"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 40,
+    "fields": {
+      "lesson": 20,
+      "language": "en",
+      "order": 2,
+      "question_text": "Which is a persuasive sentence?",
+      "image_url": "",
+      "options": [
+        "You should recycle to help the planet",
+        "The sky is blue",
+        "It rained yesterday"
+      ],
+      "correct_answer": "You should recycle to help the planet"
+    }
+  },
+  {
+    "model": "curriculum.lesson",
+    "pk": 21,
+    "fields": {
+      "category": 7,
+      "title": "Reading for Meaning",
+      "description": "Understanding the main idea of a passage.",
+      "order": 21,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 21,
+    "fields": {
+      "lesson": 21,
+      "language": "en",
+      "body": "Reading for meaning means understanding what the writer is really saying, not just the words.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 41,
+    "fields": {
+      "lesson": 21,
+      "language": "en",
+      "order": 1,
+      "question_text": "What does 'reading for meaning' focus on?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iNTAiIHk9IjYwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjgwIiByeD0iNiIgZmlsbD0iIzRGODU2NiIvPjxsaW5lIHgxPSIxMDAiIHkxPSI2MCIgeDI9IjEwMCIgeTI9IjE0MCIgc3Ryb2tlPSIjRkJGOEYxIiBzdHJva2Utd2lkdGg9IjMiLz48L3N2Zz4=",
+      "options": [
+        "Understanding the message",
+        "Counting words",
+        "Reading fast"
+      ],
+      "correct_answer": "Understanding the message"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 42,
+    "fields": {
+      "lesson": 21,
+      "language": "en",
+      "order": 2,
+      "question_text": "What should you look for in a passage?",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iNTAiIHk9IjYwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjgwIiByeD0iNiIgZmlsbD0iIzRGODU2NiIvPjxsaW5lIHgxPSIxMDAiIHkxPSI2MCIgeDI9IjEwMCIgeTI9IjE0MCIgc3Ryb2tlPSIjRkJGOEYxIiBzdHJva2Utd2lkdGg9IjMiLz48L3N2Zz4=",
+      "options": [
+        "The main idea",
+        "The longest word",
+        "The last letter"
+      ],
+      "correct_answer": "The main idea"
+    }
+  },
+  {
+    "model": "curriculum.lesson",
+    "pk": 22,
+    "fields": {
+      "category": 7,
+      "title": "Making Inferences",
+      "description": "Reading between the lines of a story.",
+      "order": 22,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 22,
+    "fields": {
+      "lesson": 22,
+      "language": "en",
+      "body": "Making inferences means using clues in the text to figure out something the writer didn't say directly.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 43,
+    "fields": {
+      "lesson": 22,
+      "language": "en",
+      "order": 1,
+      "question_text": "An inference is based on what?",
+      "image_url": "",
+      "options": [
+        "Clues in the text",
+        "Random guessing",
+        "The title only"
+      ],
+      "correct_answer": "Clues in the text"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 44,
+    "fields": {
+      "lesson": 22,
+      "language": "en",
+      "order": 2,
+      "question_text": "If a character is smiling and laughing, how do they likely feel?",
+      "image_url": "",
+      "options": [
+        "Happy",
+        "Sad",
+        "Angry"
+      ],
+      "correct_answer": "Happy"
+    }
+  },
+  {
+    "model": "curriculum.lesson",
+    "pk": 23,
+    "fields": {
+      "category": 7,
+      "title": "Summarizing",
+      "description": "Retelling the main points briefly.",
+      "order": 23,
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "curriculum.lessoncontent",
+    "pk": 23,
+    "fields": {
+      "lesson": 23,
+      "language": "en",
+      "body": "A summary retells the most important parts of a text in your own words, briefly.",
+      "exercise": ""
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 45,
+    "fields": {
+      "lesson": 23,
+      "language": "en",
+      "order": 1,
+      "question_text": "A good summary should be...",
+      "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcng9IjI0IiBmaWxsPSIjRUVGNUYwIi8+PHJlY3QgeD0iNTAiIHk9IjYwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjgwIiByeD0iNiIgZmlsbD0iIzRGODU2NiIvPjxsaW5lIHgxPSIxMDAiIHkxPSI2MCIgeDI9IjEwMCIgeTI9IjE0MCIgc3Ryb2tlPSIjRkJGOEYxIiBzdHJva2Utd2lkdGg9IjMiLz48L3N2Zz4=",
+      "options": [
+        "Short and clear",
+        "As long as the original",
+        "Full of new opinions"
+      ],
+      "correct_answer": "Short and clear"
+    }
+  },
+  {
+    "model": "curriculum.lessonexercise",
+    "pk": 46,
+    "fields": {
+      "lesson": 23,
+      "language": "en",
+      "order": 2,
+      "question_text": "A summary should be written in whose words?",
+      "image_url": "",
+      "options": [
+        "Your own words",
+        "The author's exact words",
+        "Random words"
+      ],
+      "correct_answer": "Your own words"
+    }
+  }
+]
